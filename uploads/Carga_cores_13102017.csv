@@ -1,0 +1,1316 @@
+id_unidad_instituto,id_implementacion,id_categoria,id_sexo,cantidad_alumnos_inscritos,cantidad_alumnos_certificados,grupo_tipo_unidad,grupo_delegacion,tipo_curso,cantidad_no_accesos
+7435,385,146,1,1,1,MF,AS,Formación,0
+7435,385,146,2,2,2,MF,AS,Formación,0
+7055,385,146,2,1,0,MF,BC,Formación,0
+7439,385,146,2,1,1,MF,BC,Formación,0
+7621,385,146,2,1,1,MF,BC,Formación,0
+8021,385,153,1,1,0,HMF,CC,Formación,1
+8022,385,158,2,1,0,HMF,CC,Formación,1
+8022,385,165,2,1,0,HMF,CC,Formación,1
+8165,385,153,2,1,1,HP,CM,Formación,0
+8166,385,165,2,1,0,HP,CM,Formación,0
+7778,385,146,2,3,3,MF,CM,Formación,0
+8175,385,153,1,1,1,HP,CS,Formación,0
+9742,385,165,1,1,0,,CH,Formación,0
+8197,385,165,2,1,0,HP,CH,Formación,1
+8211,385,180,2,1,0,HP,CH,Formación,1
+8211,385,178,2,1,0,HP,CH,Formación,0
+7667,385,146,2,1,0,MF,DG,Formación,0
+8242,385,164,2,1,1,UMAE,GT,Formación,0
+8215,385,146,1,1,0,HP,GT,Formación,0
+7846,385,146,1,1,0,MF,GT,Formación,0
+7857,385,164,2,1,0,MF,GT,Formación,0
+8098,385,153,2,1,0,HMF,GR,Formación,0
+7862,385,146,2,2,0,MF,GR,Formación,0
+7862,385,164,2,1,1,MF,GR,Formación,0
+8177,385,171,2,1,0,HP,HG,Formación,0
+8042,385,146,2,2,2,HMF,HG,Formación,0
+6987,385,146,2,1,1,MF,JC,Formación,0
+7985,385,148,1,1,1,MF,JC,Formación,0
+7289,385,146,1,1,0,MF,JC,Formación,0
+11756,385,164,2,1,1,,MCO,Formación,0
+8199,385,153,1,1,1,HP,MCO,Formación,0
+7401,385,146,1,1,0,MF,MCO,Formación,0
+7991,385,146,2,1,1,MF,MCO,Formación,0
+7993,385,146,2,1,0,MF,MCO,Formación,0
+8203,385,176,2,1,0,HP,MCP,Formación,0
+8203,385,153,1,1,0,HP,MCP,Formación,0
+8203,385,146,2,1,1,HP,MCP,Formación,0
+8204,385,176,2,1,0,HP,MCP,Formación,0
+8141,385,207,2,1,0,HP,MCP,Formación,0
+8141,385,164,2,1,0,HP,MCP,Formación,0
+8222,385,165,2,1,0,HP,MCP,Formación,0
+7505,385,146,2,1,0,MF,MCP,Formación,0
+7507,385,146,1,1,0,MF,MCP,Formación,0
+7519,385,146,2,1,1,MF,MCP,Formación,0
+7521,385,146,1,1,0,MF,MCP,Formación,1
+8213,385,171,2,1,1,HP,MN,Formación,0
+7996,385,146,2,2,0,MF,MN,Formación,0
+7615,385,146,1,1,0,MF,MN,Formación,0
+8108,385,158,2,1,0,HMF,MS,Formación,0
+8169,385,177,2,1,0,HP,NL,Formación,0
+8169,385,165,2,2,0,HP,NL,Formación,0
+8169,385,164,1,1,0,HP,NL,Formación,0
+8167,385,177,1,1,0,HP,NL,Formación,0
+8032,385,153,1,1,0,HMF,NL,Formación,1
+8032,385,165,1,1,1,HMF,NL,Formación,0
+10117,385,146,2,2,2,,PL,Formación,0
+8182,385,164,2,1,1,HP,PL,Formación,0
+7887,385,146,2,1,1,MF,PL,Formación,0
+8173,385,153,1,1,1,HP,QT,Formación,0
+8173,385,165,2,4,0,HP,QT,Formación,1
+7647,385,89,2,1,1,MF,QT,Formación,0
+7647,385,153,1,1,0,MF,QT,Formación,0
+7647,385,146,1,2,0,MF,QT,Formación,1
+7647,385,146,2,1,0,MF,QT,Formación,1
+7647,385,165,2,1,1,MF,QT,Formación,0
+7647,385,164,2,1,0,MF,QT,Formación,1
+7650,385,146,2,2,0,MF,QT,Formación,1
+8164,385,165,1,1,0,HP,SP,Formación,0
+8005,385,153,1,1,0,HMF,SP,Formación,1
+8005,385,146,1,1,0,HMF,SP,Formación,1
+7771,385,146,2,1,1,MF,SP,Formación,0
+8185,385,207,1,1,0,HP,SL,Formación,0
+8224,385,153,2,1,0,HP,SL,Formación,0
+8142,385,153,1,2,0,HP,SR,Formación,0
+8142,385,153,2,1,0,HP,SR,Formación,0
+8142,385,167,1,1,1,HP,SR,Formación,0
+8002,385,153,1,1,0,HMF,SR,Formación,0
+8196,385,153,1,1,0,HP,TS,Formación,0
+8196,385,165,1,1,0,HP,TS,Formación,0
+8010,385,153,2,2,1,HMF,TS,Formación,0
+8210,385,153,1,1,1,HP,TS,Formación,0
+6874,385,146,1,1,1,MF,TS,Formación,0
+6874,385,146,2,1,1,MF,TS,Formación,0
+7086,385,146,1,1,0,MF,TS,Formación,0
+7478,385,146,1,1,0,MF,TS,Formación,0
+8136,385,153,2,1,0,HP,TL,Formación,0
+8020,385,153,1,1,0,HMF,TL,Formación,0
+8020,385,146,2,1,1,HMF,TL,Formación,0
+7576,385,146,1,1,1,MF,TL,Formación,0
+8735,385,146,2,1,1,,VZN,Formación,0
+8152,385,165,1,1,0,HP,VZN,Formación,0
+8742,385,164,2,1,0,,VZN,Formación,0
+9150,385,153,1,1,0,,VZS,Formación,0
+8146,385,165,2,1,0,HP,VZS,Formación,1
+7350,385,164,2,1,1,MF,VZS,Formación,0
+9507,385,207,2,1,1,,YN,Formación,0
+7036,385,146,2,1,1,MF,YN,Formación,0
+7270,385,146,1,1,0,MF,YN,Formación,0
+6898,385,158,1,1,0,MF,YN,Formación,0
+8114,385,164,2,1,0,HUMAA,ZS,Formación,0
+8114,385,167,2,1,1,HUMAA,ZS,Formación,0
+7232,385,146,1,1,1,MF,ZS,Formación,0
+7466,385,146,2,1,0,MF,ZS,Formación,0
+8269,385,158,2,1,0,CUMAE,DFN,Formación,0
+8269,385,167,1,1,0,CUMAE,DFN,Formación,1
+8118,385,153,1,3,0,HP,DFN,Formación,1
+8118,385,153,2,5,1,HP,DFN,Formación,1
+8156,385,153,2,1,1,HP,DFN,Formación,0
+7542,385,146,2,1,1,MF,DFN,Formación,0
+8012,385,153,1,1,0,HMF,DFN,Formación,0
+7056,385,153,1,1,0,MF,DFN,Formación,1
+7056,385,146,3,1,1,MF,DFN,Formación,0
+7188,385,153,3,1,1,MF,DFN,Formación,0
+7574,385,146,2,1,1,MF,DFN,Formación,0
+7448,385,146,2,1,1,MF,DFN,Formación,0
+7598,385,146,1,1,0,MF,DFS,Formación,0
+7172,385,146,2,1,0,MF,DFS,Formación,0
+7174,385,165,2,1,0,MF,DFS,Formación,0
+7446,385,146,2,1,0,MF,DFS,Formación,0
+7602,385,146,2,2,0,MF,DFS,Formación,0
+7316,385,146,2,1,0,MF,DFS,Formación,1
+7068,385,146,2,1,0,MF,DFS,Formación,0
+7390,385,146,2,1,1,MF,DFS,Formación,0
+7986,385,153,1,3,1,MF,DFS,Formación,2
+7986,385,153,2,1,0,MF,DFS,Formación,1
+6873,401,82,2,1,0,MF,AS,Sin tipo asignado,0
+6969,401,82,2,1,0,MF,AS,Sin tipo asignado,0
+7619,401,106,2,1,0,MF,AS,Sin tipo asignado,0
+7619,401,89,1,2,0,MF,AS,Sin tipo asignado,0
+7623,401,92,2,1,0,MF,AS,Sin tipo asignado,0
+7674,401,89,1,1,0,MF,AS,Sin tipo asignado,0
+9158,401,124,1,1,0,,BC,Sin tipo asignado,0
+8024,401,88,1,1,0,HMF,BC,Sin tipo asignado,0
+8110,401,88,2,2,0,HMF,BC,Sin tipo asignado,0
+6877,401,82,2,1,0,MF,BC,Sin tipo asignado,0
+6949,401,89,1,1,0,MF,BC,Sin tipo asignado,0
+7055,401,81,1,1,0,MF,BC,Sin tipo asignado,0
+7343,401,89,1,1,0,MF,BC,Sin tipo asignado,0
+7343,401,89,3,1,0,MF,BC,Sin tipo asignado,0
+7537,401,100,1,1,0,MF,BC,Sin tipo asignado,0
+7958,401,85,1,1,0,MF,BC,Sin tipo asignado,0
+7962,401,82,2,1,0,MF,BC,Sin tipo asignado,0
+13338,401,109,2,1,0,,BS,Sin tipo asignado,0
+8052,401,88,1,2,0,HMF,BS,Sin tipo asignado,0
+8052,401,88,2,1,0,HMF,BS,Sin tipo asignado,0
+8217,401,97,1,1,0,HP,BS,Sin tipo asignado,0
+8103,401,89,1,1,0,HMF,BS,Sin tipo asignado,0
+6881,401,88,2,1,0,MF,BS,Sin tipo asignado,0
+7983,401,89,2,1,0,MF,BS,Sin tipo asignado,0
+6945,401,81,2,1,0,MF,BS,Sin tipo asignado,0
+8021,401,111,1,1,0,HMF,CC,Sin tipo asignado,0
+8021,401,99,1,2,0,HMF,CC,Sin tipo asignado,0
+8021,401,88,1,1,0,HMF,CC,Sin tipo asignado,0
+8021,401,153,1,1,0,HMF,CC,Sin tipo asignado,0
+8022,401,153,1,1,0,HMF,CC,Sin tipo asignado,0
+7571,401,89,2,1,0,MF,CC,Sin tipo asignado,0
+8244,401,121,1,2,0,UMAE,CL,Sin tipo asignado,0
+8244,401,103,1,2,0,UMAE,CL,Sin tipo asignado,0
+8178,401,99,1,1,0,HP,CL,Sin tipo asignado,0
+8178,401,99,2,1,0,HP,CL,Sin tipo asignado,0
+8178,401,88,1,1,0,HP,CL,Sin tipo asignado,0
+8178,401,88,2,2,0,HP,CL,Sin tipo asignado,0
+8176,401,111,1,1,0,HP,CL,Sin tipo asignado,0
+8176,401,88,1,1,0,HP,CL,Sin tipo asignado,0
+8040,401,111,2,1,0,HMF,CL,Sin tipo asignado,0
+8040,401,89,2,1,0,HMF,CL,Sin tipo asignado,0
+8046,401,88,1,1,0,HMF,CL,Sin tipo asignado,0
+8051,401,88,1,1,0,HMF,CL,Sin tipo asignado,1
+8051,401,88,2,1,0,HMF,CL,Sin tipo asignado,0
+8219,401,153,2,1,0,HP,CL,Sin tipo asignado,0
+7329,401,100,1,1,0,MF,CL,Sin tipo asignado,0
+7989,401,89,1,1,0,MF,CL,Sin tipo asignado,0
+8165,401,88,1,1,0,HP,CM,Sin tipo asignado,0
+8166,401,107,1,1,0,HP,CM,Sin tipo asignado,0
+8086,401,102,1,1,0,HMF,CM,Sin tipo asignado,0
+7727,401,83,3,1,0,MF,CM,Sin tipo asignado,0
+7729,401,83,3,1,0,MF,CM,Sin tipo asignado,0
+7740,401,92,3,1,0,MF,CM,Sin tipo asignado,0
+7778,401,100,1,1,0,MF,CM,Sin tipo asignado,0
+12482,401,110,1,1,0,,CS,Sin tipo asignado,0
+8096,401,153,1,1,0,HMF,CS,Sin tipo asignado,0
+7873,401,81,1,1,0,MF,CS,Sin tipo asignado,0
+7896,401,81,2,1,0,MF,CS,Sin tipo asignado,0
+6885,401,89,2,2,0,MF,CS,Sin tipo asignado,0
+6893,401,92,2,1,0,MF,CS,Sin tipo asignado,0
+6903,401,82,2,1,0,MF,CS,Sin tipo asignado,0
+6921,401,146,1,1,0,MF,CS,Sin tipo asignado,0
+9742,401,144,2,1,0,,CH,Sin tipo asignado,0
+8195,401,88,1,1,0,HP,CH,Sin tipo asignado,0
+8195,401,88,2,1,0,HP,CH,Sin tipo asignado,0
+8197,401,90,1,1,0,HP,CH,Sin tipo asignado,0
+8197,401,90,2,1,0,HP,CH,Sin tipo asignado,0
+8127,401,153,1,1,0,HP,CH,Sin tipo asignado,0
+8115,401,88,1,1,0,HUMAA,CH,Sin tipo asignado,0
+8115,401,153,2,2,0,HUMAA,CH,Sin tipo asignado,0
+8015,401,88,1,2,0,HMF,CH,Sin tipo asignado,0
+8019,401,105,1,1,0,HMF,CH,Sin tipo asignado,0
+8221,401,105,2,1,0,HP,CH,Sin tipo asignado,0
+8221,401,153,1,1,0,HP,CH,Sin tipo asignado,0
+8155,401,105,1,1,0,HP,DG,Sin tipo asignado,0
+8027,401,99,1,2,0,HMF,DG,Sin tipo asignado,0
+8027,401,88,1,1,0,HMF,DG,Sin tipo asignado,0
+8027,401,88,2,3,0,HMF,DG,Sin tipo asignado,0
+8027,401,84,2,1,0,HMF,DG,Sin tipo asignado,0
+8078,401,88,1,1,0,HMF,DG,Sin tipo asignado,0
+8078,401,91,1,1,0,HMF,DG,Sin tipo asignado,0
+7633,401,91,1,1,0,MF,DG,Sin tipo asignado,0
+8242,401,103,1,2,0,UMAE,GT,Sin tipo asignado,0
+8252,401,103,1,1,0,UMAE,GT,Sin tipo asignado,0
+8252,401,103,2,1,0,UMAE,GT,Sin tipo asignado,0
+8033,401,88,2,1,0,HMF,GT,Sin tipo asignado,0
+8033,401,153,3,1,0,HMF,GT,Sin tipo asignado,0
+8034,401,105,1,1,0,HMF,GT,Sin tipo asignado,0
+8214,401,88,1,1,0,HP,GT,Sin tipo asignado,0
+8092,401,102,1,1,0,HMF,GT,Sin tipo asignado,0
+7846,401,89,1,1,0,MF,GT,Sin tipo asignado,0
+7856,401,92,1,1,0,MF,GT,Sin tipo asignado,0
+7856,401,89,1,1,0,MF,GT,Sin tipo asignado,0
+7857,401,100,2,1,0,MF,GT,Sin tipo asignado,0
+7973,401,85,1,1,0,MF,GT,Sin tipo asignado,0
+12441,401,116,2,1,0,,GR,Sin tipo asignado,0
+8208,401,88,1,1,0,HP,GR,Sin tipo asignado,0
+8208,401,88,2,1,0,HP,GR,Sin tipo asignado,0
+8208,401,84,1,1,0,HP,GR,Sin tipo asignado,0
+8208,401,153,1,1,0,HP,GR,Sin tipo asignado,0
+8038,401,105,1,1,0,HMF,GR,Sin tipo asignado,0
+7862,401,89,1,1,0,MF,GR,Sin tipo asignado,0
+8042,401,122,1,1,0,HMF,HG,Sin tipo asignado,0
+8042,401,88,2,1,0,HMF,HG,Sin tipo asignado,0
+8043,401,88,1,1,0,HMF,HG,Sin tipo asignado,0
+8043,401,88,2,1,0,HMF,HG,Sin tipo asignado,0
+8044,401,88,1,1,0,HMF,HG,Sin tipo asignado,0
+8218,401,102,1,1,0,HP,HG,Sin tipo asignado,0
+8218,401,88,1,1,0,HP,HG,Sin tipo asignado,0
+11756,401,132,1,1,0,,MCO,Sin tipo asignado,0
+11756,401,109,1,1,0,,MCO,Sin tipo asignado,0
+11756,401,108,1,1,0,,MCO,Sin tipo asignado,0
+8201,401,88,1,1,0,HP,MCO,Sin tipo asignado,0
+7413,401,100,2,1,0,MF,MCO,Sin tipo asignado,0
+7427,401,92,1,1,0,MF,MCO,Sin tipo asignado,0
+7427,401,89,1,1,0,MF,MCO,Sin tipo asignado,0
+11668,401,126,2,1,0,,MCP,Sin tipo asignado,0
+11668,401,110,2,1,0,,MCP,Sin tipo asignado,0
+11668,401,129,1,1,0,,MCP,Sin tipo asignado,0
+11668,401,138,1,1,0,,MCP,Sin tipo asignado,0
+8254,401,103,1,1,0,UMAE,MCP,Sin tipo asignado,0
+8254,401,153,1,1,0,UMAE,MCP,Sin tipo asignado,0
+8254,401,153,2,1,0,UMAE,MCP,Sin tipo asignado,0
+8204,401,153,2,1,0,HP,MCP,Sin tipo asignado,0
+7453,401,89,2,2,0,MF,MCP,Sin tipo asignado,0
+11091,401,113,1,1,0,,MS,Sin tipo asignado,0
+8108,401,90,2,2,0,HMF,MS,Sin tipo asignado,0
+8108,401,88,1,1,0,HMF,MS,Sin tipo asignado,0
+8108,401,88,2,1,0,HMF,MS,Sin tipo asignado,0
+8108,401,84,2,1,0,HMF,MS,Sin tipo asignado,0
+8108,401,153,2,1,0,HMF,MS,Sin tipo asignado,0
+8028,401,90,1,1,0,HMF,MS,Sin tipo asignado,0
+8159,401,88,1,1,0,HP,NT,Sin tipo asignado,0
+8159,401,88,2,1,0,HP,NT,Sin tipo asignado,0
+8080,401,102,1,1,0,HMF,NT,Sin tipo asignado,0
+8080,401,88,1,1,0,HMF,NT,Sin tipo asignado,0
+7706,401,82,2,1,0,MF,NT,Sin tipo asignado,0
+7717,401,89,1,1,0,MF,NT,Sin tipo asignado,0
+7717,401,89,2,1,0,MF,NT,Sin tipo asignado,0
+7724,401,92,2,1,0,MF,NT,Sin tipo asignado,0
+7724,401,89,2,1,0,MF,NT,Sin tipo asignado,0
+8269,401,94,1,1,0,CUMAE,DFN,Sin tipo asignado,0
+8269,401,88,1,2,0,CUMAE,DFN,Sin tipo asignado,0
+8269,401,153,2,1,0,CUMAE,DFN,Sin tipo asignado,0
+8271,401,153,2,1,0,CUMAE,DFN,Sin tipo asignado,0
+8253,401,153,1,1,0,UMAE,DFN,Sin tipo asignado,0
+8253,401,153,2,2,0,UMAE,DFN,Sin tipo asignado,0
+8156,401,122,1,1,0,HP,DFN,Sin tipo asignado,0
+8156,401,99,2,1,0,HP,DFN,Sin tipo asignado,0
+8156,401,88,1,1,0,HP,DFN,Sin tipo asignado,0
+8156,401,88,2,2,0,HP,DFN,Sin tipo asignado,0
+8225,401,122,1,2,0,HP,DFN,Sin tipo asignado,0
+8225,401,122,2,1,0,HP,DFN,Sin tipo asignado,0
+8225,401,99,1,1,0,HP,DFN,Sin tipo asignado,0
+8225,401,99,2,1,0,HP,DFN,Sin tipo asignado,0
+8237,401,103,1,1,0,UMAE,DFN,Sin tipo asignado,0
+8249,401,133,2,1,0,UMAE,DFN,Sin tipo asignado,0
+8249,401,153,1,2,0,UMAE,DFN,Sin tipo asignado,0
+8249,401,153,3,1,0,UMAE,DFN,Sin tipo asignado,0
+8259,401,103,1,1,0,UMAE,DFN,Sin tipo asignado,0
+8259,401,103,2,4,0,UMAE,DFN,Sin tipo asignado,0
+9966,401,200,2,1,0,,DFN,Sin tipo asignado,0
+8184,401,88,2,1,0,HP,DFN,Sin tipo asignado,0
+8184,401,153,1,1,0,HP,DFN,Sin tipo asignado,0
+8148,401,90,2,1,0,HP,DFN,Sin tipo asignado,0
+8148,401,88,1,1,0,HP,DFN,Sin tipo asignado,0
+8012,401,90,2,1,0,HMF,DFN,Sin tipo asignado,0
+8012,401,153,1,1,0,HMF,DFN,Sin tipo asignado,0
+8012,401,153,2,1,0,HMF,DFN,Sin tipo asignado,0
+8241,401,103,1,2,0,UMAE,DFS,Sin tipo asignado,0
+8241,401,103,2,2,0,UMAE,DFS,Sin tipo asignado,0
+8241,401,153,1,1,0,UMAE,DFS,Sin tipo asignado,0
+8241,401,153,2,1,0,UMAE,DFS,Sin tipo asignado,0
+8247,401,103,1,2,0,UMAE,DFS,Sin tipo asignado,0
+8247,401,103,2,1,0,UMAE,DFS,Sin tipo asignado,0
+8247,401,153,1,1,0,UMAE,DFS,Sin tipo asignado,0
+8257,401,103,1,1,0,UMAE,DFS,Sin tipo asignado,0
+8257,401,103,2,1,0,UMAE,DFS,Sin tipo asignado,0
+8257,401,153,1,1,0,UMAE,DFS,Sin tipo asignado,0
+8257,401,153,2,1,0,UMAE,DFS,Sin tipo asignado,0
+8261,401,103,1,1,0,UMAE,DFS,Sin tipo asignado,0
+8261,401,103,2,1,0,UMAE,DFS,Sin tipo asignado,0
+8261,401,153,1,1,0,UMAE,DFS,Sin tipo asignado,0
+8262,401,103,1,1,0,UMAE,DFS,Sin tipo asignado,0
+8262,401,153,1,1,0,UMAE,DFS,Sin tipo asignado,0
+8014,401,122,1,1,0,HMF,DFS,Sin tipo asignado,0
+7172,401,89,1,1,0,MF,DFS,Sin tipo asignado,0
+7162,401,89,2,1,0,MF,DFS,Sin tipo asignado,0
+7592,401,89,2,1,0,MF,DFS,Sin tipo asignado,0
+7602,401,89,1,1,0,MF,DFS,Sin tipo asignado,0
+7062,401,100,2,1,0,MF,DFS,Sin tipo asignado,0
+7066,401,89,2,1,0,MF,DFS,Sin tipo asignado,0
+8130,401,88,1,1,0,HP,DFS,Sin tipo asignado,0
+7396,401,97,2,1,0,MF,DFS,Sin tipo asignado,0
+7170,401,89,3,1,0,MF,DFS,Sin tipo asignado,0
+7316,401,89,1,1,0,MF,DFS,Sin tipo asignado,0
+7986,401,89,2,1,0,MF,DFS,Sin tipo asignado,0
+8238,375,103,1,2,0,UMAE,JC,Sin tipo asignado,1
+8238,375,103,2,2,0,UMAE,JC,Sin tipo asignado,1
+8248,375,121,1,1,0,UMAE,JC,Sin tipo asignado,0
+8248,375,121,2,1,0,UMAE,JC,Sin tipo asignado,0
+8248,375,103,1,1,0,UMAE,JC,Sin tipo asignado,0
+8248,375,103,2,1,0,UMAE,JC,Sin tipo asignado,0
+8258,375,121,2,1,0,UMAE,JC,Sin tipo asignado,0
+8258,375,103,2,3,0,UMAE,JC,Sin tipo asignado,0
+8068,375,85,2,1,0,HMF,JC,Sin tipo asignado,0
+7009,375,106,1,1,0,MF,JC,Sin tipo asignado,0
+7113,375,83,2,1,0,MF,JC,Sin tipo asignado,0
+7137,375,83,2,1,0,MF,JC,Sin tipo asignado,0
+7167,375,100,1,1,0,MF,JC,Sin tipo asignado,0
+7197,375,81,2,1,0,MF,JC,Sin tipo asignado,0
+7221,375,92,1,1,0,MF,JC,Sin tipo asignado,0
+7283,375,106,1,1,0,MF,JC,Sin tipo asignado,0
+7289,375,91,1,1,0,MF,JC,Sin tipo asignado,0
+7911,375,91,2,1,0,MF,JC,Sin tipo asignado,0
+7917,375,83,1,1,0,MF,JC,Sin tipo asignado,0
+7921,375,82,1,1,0,MF,JC,Sin tipo asignado,0
+7931,375,83,2,1,0,MF,JC,Sin tipo asignado,0
+7937,375,83,1,1,0,MF,JC,Sin tipo asignado,0
+8205,375,88,2,1,0,HP,MN,Sin tipo asignado,0
+8147,375,107,2,1,0,HP,MN,Sin tipo asignado,0
+8074,375,102,1,1,0,HMF,MN,Sin tipo asignado,0
+8076,375,88,1,1,0,HMF,MN,Sin tipo asignado,0
+7547,375,81,1,1,0,MF,MN,Sin tipo asignado,0
+7555,375,85,2,1,0,MF,MN,Sin tipo asignado,0
+7597,375,81,1,1,0,MF,MN,Sin tipo asignado,0
+7996,375,89,2,1,0,MF,MN,Sin tipo asignado,0
+7601,375,89,1,1,0,MF,MN,Sin tipo asignado,0
+7607,375,92,1,1,0,MF,MN,Sin tipo asignado,0
+7946,375,85,1,1,0,MF,MN,Sin tipo asignado,0
+7949,375,85,1,1,0,MF,MN,Sin tipo asignado,0
+8240,375,133,1,1,0,UMAE,NL,Sin tipo asignado,0
+8240,375,121,1,2,0,UMAE,NL,Sin tipo asignado,0
+8240,375,153,2,1,0,UMAE,NL,Sin tipo asignado,0
+8255,375,104,2,1,0,UMAE,NL,Sin tipo asignado,0
+8250,375,121,1,1,0,UMAE,NL,Sin tipo asignado,0
+8250,375,103,1,2,0,UMAE,NL,Sin tipo asignado,0
+8250,375,103,2,1,0,UMAE,NL,Sin tipo asignado,0
+8250,375,145,1,1,0,UMAE,NL,Sin tipo asignado,0
+8260,375,133,1,1,0,UMAE,NL,Sin tipo asignado,0
+8260,375,103,1,1,0,UMAE,NL,Sin tipo asignado,0
+8260,375,103,2,2,0,UMAE,NL,Sin tipo asignado,0
+8270,375,90,2,1,0,CUMAE,NL,Sin tipo asignado,0
+8270,375,153,2,1,0,CUMAE,NL,Sin tipo asignado,0
+8169,375,99,1,1,0,HP,NL,Sin tipo asignado,0
+8168,375,99,1,1,0,HP,NL,Sin tipo asignado,0
+8167,375,90,1,1,0,HP,NL,Sin tipo asignado,0
+8090,375,88,1,1,0,HMF,NL,Sin tipo asignado,0
+8235,375,90,2,1,0,UMAA,NL,Sin tipo asignado,0
+7735,375,92,1,1,0,MF,NL,Sin tipo asignado,0
+7736,375,81,1,1,0,MF,NL,Sin tipo asignado,0
+7743,375,89,2,1,0,MF,NL,Sin tipo asignado,0
+7744,375,100,1,1,0,MF,NL,Sin tipo asignado,0
+7744,375,89,1,1,0,MF,NL,Sin tipo asignado,0
+7744,375,89,2,1,0,MF,NL,Sin tipo asignado,0
+7776,375,97,1,1,0,MF,NL,Sin tipo asignado,0
+7780,375,97,1,1,0,MF,NL,Sin tipo asignado,0
+7787,375,89,1,1,0,MF,NL,Sin tipo asignado,0
+7797,375,81,1,1,0,MF,NL,Sin tipo asignado,0
+7802,375,89,1,1,0,MF,NL,Sin tipo asignado,0
+10773,375,113,2,1,0,,OC,Sin tipo asignado,0
+10773,375,115,2,1,0,,OC,Sin tipo asignado,0
+8174,375,107,1,1,0,HP,OC,Sin tipo asignado,0
+8036,375,105,1,1,0,HMF,OC,Sin tipo asignado,1
+7855,375,89,2,2,0,MF,OC,Sin tipo asignado,0
+10117,375,110,1,1,0,,PL,Sin tipo asignado,0
+10117,375,130,2,1,0,,PL,Sin tipo asignado,0
+10117,375,140,2,1,0,,PL,Sin tipo asignado,0
+8246,375,121,1,1,0,UMAE,PL,Sin tipo asignado,0
+8246,375,153,1,1,0,UMAE,PL,Sin tipo asignado,0
+8246,375,153,2,2,0,UMAE,PL,Sin tipo asignado,0
+8256,375,153,1,1,0,UMAE,PL,Sin tipo asignado,0
+8256,375,153,2,1,0,UMAE,PL,Sin tipo asignado,0
+8209,375,94,2,1,0,HP,PL,Sin tipo asignado,0
+8209,375,153,1,1,0,HP,PL,Sin tipo asignado,0
+8182,375,90,2,1,0,HP,PL,Sin tipo asignado,0
+7281,375,89,1,1,0,MF,PL,Sin tipo asignado,0
+8207,375,131,2,1,0,HP,QT,Sin tipo asignado,0
+8207,375,90,1,1,0,HP,QT,Sin tipo asignado,0
+8207,375,88,2,1,0,HP,QT,Sin tipo asignado,0
+8173,375,90,1,1,0,HP,QT,Sin tipo asignado,0
+8173,375,88,1,1,0,HP,QT,Sin tipo asignado,0
+7645,375,89,1,1,0,MF,QT,Sin tipo asignado,0
+7646,375,146,1,1,0,MF,QT,Sin tipo asignado,0
+8206,375,99,1,1,0,HP,QR,Sin tipo asignado,0
+8206,375,88,1,1,0,HP,QR,Sin tipo asignado,0
+8206,375,88,2,1,0,HP,QR,Sin tipo asignado,0
+8172,375,88,1,2,0,HP,QR,Sin tipo asignado,0
+8163,375,120,1,1,0,HP,SP,Sin tipo asignado,1
+8163,375,88,1,1,0,HP,SP,Sin tipo asignado,0
+8164,375,153,2,1,0,HP,SP,Sin tipo asignado,0
+8003,375,88,1,1,0,HMF,SP,Sin tipo asignado,0
+8003,375,88,2,1,0,HMF,SP,Sin tipo asignado,0
+8005,375,90,1,1,0,HMF,SP,Sin tipo asignado,0
+7769,375,89,2,1,0,MF,SP,Sin tipo asignado,0
+7771,375,89,1,1,0,MF,SP,Sin tipo asignado,0
+13668,375,109,1,1,0,,SL,Sin tipo asignado,0
+13668,375,138,2,1,0,,SL,Sin tipo asignado,0
+8185,375,88,1,1,0,HP,SL,Sin tipo asignado,0
+8185,375,88,2,2,0,HP,SL,Sin tipo asignado,0
+8185,375,153,1,1,0,HP,SL,Sin tipo asignado,0
+8119,375,99,1,1,0,HP,SL,Sin tipo asignado,0
+8047,375,122,1,1,0,HMF,SL,Sin tipo asignado,0
+8047,375,88,1,1,0,HMF,SL,Sin tipo asignado,0
+8060,375,107,1,1,0,HMF,SL,Sin tipo asignado,0
+8060,375,88,1,1,0,HMF,SL,Sin tipo asignado,0
+8224,375,88,1,1,0,HP,SL,Sin tipo asignado,0
+7980,375,89,2,1,0,MF,SL,Sin tipo asignado,0
+8243,375,103,1,1,0,UMAE,SR,Sin tipo asignado,0
+8243,375,103,2,1,0,UMAE,SR,Sin tipo asignado,0
+8186,375,153,1,1,0,HP,SR,Sin tipo asignado,0
+7234,375,89,1,1,0,MF,SR,Sin tipo asignado,0
+7488,375,81,2,1,0,MF,SR,Sin tipo asignado,0
+7614,375,81,1,1,0,MF,SR,Sin tipo asignado,0
+7112,375,81,2,1,0,MF,SR,Sin tipo asignado,0
+7428,375,81,1,1,0,MF,SR,Sin tipo asignado,0
+7560,375,85,1,1,0,MF,SR,Sin tipo asignado,0
+7114,375,92,2,1,0,MF,SR,Sin tipo asignado,0
+7550,375,91,2,1,0,MF,SR,Sin tipo asignado,0
+7928,375,85,1,1,0,MF,SR,Sin tipo asignado,0
+8126,375,88,2,1,0,HP,TC,Sin tipo asignado,0
+8126,375,153,1,2,0,HP,TC,Sin tipo asignado,0
+8160,375,88,2,2,0,HP,TC,Sin tipo asignado,0
+8160,375,153,2,1,0,HP,TC,Sin tipo asignado,0
+8055,375,102,1,1,0,HMF,TC,Sin tipo asignado,0
+7580,375,82,2,1,0,MF,TC,Sin tipo asignado,0
+6966,375,81,2,1,0,MF,TC,Sin tipo asignado,0
+7122,375,92,1,1,0,MF,TC,Sin tipo asignado,0
+8499,375,127,1,1,0,,TS,Sin tipo asignado,0
+8196,375,131,2,1,0,HP,TS,Sin tipo asignado,0
+8506,375,90,2,1,0,,TS,Sin tipo asignado,0
+8162,375,99,2,1,0,HP,TS,Sin tipo asignado,0
+8162,375,88,1,1,0,HP,TS,Sin tipo asignado,0
+8010,375,120,1,1,0,HMF,TS,Sin tipo asignado,0
+8010,375,146,2,1,0,HMF,TS,Sin tipo asignado,0
+8511,375,153,2,1,0,,TS,Sin tipo asignado,0
+8576,375,88,2,1,0,,TS,Sin tipo asignado,0
+8576,375,97,1,1,0,,TS,Sin tipo asignado,0
+7990,375,97,1,1,0,MF,TS,Sin tipo asignado,0
+8697,375,222,1,1,0,,TL,Sin tipo asignado,0
+8136,375,105,1,1,0,HP,TL,Sin tipo asignado,0
+8136,375,90,1,1,0,HP,TL,Sin tipo asignado,0
+8136,375,86,2,1,0,HP,TL,Sin tipo asignado,0
+7476,375,81,1,1,0,MF,TL,Sin tipo asignado,0
+7340,375,82,1,1,0,MF,TL,Sin tipo asignado,0
+7004,375,82,1,1,0,MF,TL,Sin tipo asignado,0
+6878,375,82,1,1,0,MF,TL,Sin tipo asignado,0
+8735,375,146,2,1,0,,VZN,Sin tipo asignado,0
+8239,375,121,1,1,0,UMAE,VZN,Sin tipo asignado,0
+8239,375,103,1,2,0,UMAE,VZN,Sin tipo asignado,0
+8152,375,131,1,1,0,HP,VZN,Sin tipo asignado,0
+8152,375,90,2,1,0,HP,VZN,Sin tipo asignado,0
+8152,375,88,1,4,0,HP,VZN,Sin tipo asignado,0
+8152,375,88,2,1,0,HP,VZN,Sin tipo asignado,0
+7344,375,90,2,1,0,MF,VZN,Sin tipo asignado,0
+7586,375,146,1,1,0,MF,VZN,Sin tipo asignado,0
+9150,375,146,1,1,0,,VZS,Sin tipo asignado,0
+8190,375,90,1,1,0,HP,VZS,Sin tipo asignado,0
+8190,375,153,1,1,0,HP,VZS,Sin tipo asignado,0
+8190,375,153,2,1,0,HP,VZS,Sin tipo asignado,0
+8146,375,153,1,1,0,HP,VZS,Sin tipo asignado,0
+8000,375,107,1,1,0,HMF,VZS,Sin tipo asignado,0
+8000,375,99,1,1,0,HMF,VZS,Sin tipo asignado,0
+8000,375,88,2,1,0,HMF,VZS,Sin tipo asignado,0
+9154,375,90,1,1,0,,VZS,Sin tipo asignado,0
+9154,375,153,1,1,0,,VZS,Sin tipo asignado,0
+8087,375,102,2,1,0,HMF,VZS,Sin tipo asignado,0
+8073,375,146,2,1,0,HMF,VZS,Sin tipo asignado,0
+7194,375,100,1,1,0,MF,VZS,Sin tipo asignado,0
+7612,375,92,1,1,0,MF,VZS,Sin tipo asignado,1
+7350,375,89,2,1,0,MF,VZS,Sin tipo asignado,0
+8245,375,103,2,3,0,UMAE,YN,Sin tipo asignado,0
+8245,375,145,1,1,0,UMAE,YN,Sin tipo asignado,1
+8194,375,88,1,2,0,HP,YN,Sin tipo asignado,0
+7036,375,89,1,1,0,MF,YN,Sin tipo asignado,0
+7036,375,89,2,2,0,MF,YN,Sin tipo asignado,0
+7270,375,89,1,1,0,MF,YN,Sin tipo asignado,0
+6898,375,89,2,1,0,MF,YN,Sin tipo asignado,0
+7150,375,89,1,1,0,MF,YN,Sin tipo asignado,0
+7150,375,89,2,1,0,MF,YN,Sin tipo asignado,0
+8144,375,111,1,1,0,HP,ZS,Sin tipo asignado,0
+8144,375,88,1,1,0,HP,ZS,Sin tipo asignado,0
+8114,375,131,1,1,0,HUMAA,ZS,Sin tipo asignado,0
+8114,375,88,2,1,0,HUMAA,ZS,Sin tipo asignado,0
+7232,375,89,2,1,0,MF,ZS,Sin tipo asignado,0
+7178,375,83,2,1,0,MF,ZS,Sin tipo asignado,0
+7452,375,81,1,1,0,MF,ZS,Sin tipo asignado,0
+7052,375,89,2,1,0,MF,ZS,Sin tipo asignado,0
+9158,403,146,1,2,1,,BC,Formación,0
+11853,403,146,1,1,0,,CC,Formación,0
+8244,403,153,2,1,1,UMAE,CL,Formación,0
+7778,403,146,2,1,1,MF,CM,Formación,0
+7853,403,172,2,1,0,MF,GT,Formación,0
+8099,403,90,1,1,0,HMF,GR,Formación,0
+7379,403,146,2,1,1,MF,MCO,Formación,0
+7403,403,146,1,1,1,MF,MCO,Formación,0
+7993,403,146,2,1,0,MF,MCO,Formación,0
+11668,403,165,2,1,1,,MCP,Formación,0
+11668,403,164,2,1,1,,MCP,Formación,0
+11091,403,146,1,1,1,,MS,Formación,0
+8159,403,165,2,1,1,HP,NT,Formación,0
+10909,403,164,2,1,1,,NL,Formación,0
+8255,403,153,1,1,1,UMAE,NL,Formación,0
+10773,403,146,2,1,1,,OC,Formación,0
+8256,403,153,2,1,1,UMAE,PL,Formación,0
+7890,403,146,2,1,1,MF,PL,Formación,0
+12744,403,153,2,1,1,,QT,Formación,0
+8163,403,172,2,1,0,HP,SP,Formación,0
+8163,403,153,2,1,1,HP,SP,Formación,0
+8163,403,164,2,1,1,HP,SP,Formación,0
+13668,403,146,1,1,1,,SL,Formación,0
+8162,403,167,2,1,0,HP,TS,Formación,0
+8136,403,165,2,1,0,HP,TL,Formación,1
+8020,403,153,2,1,0,HMF,TL,Formación,0
+7006,403,146,1,1,1,MF,TL,Formación,0
+9150,403,164,2,1,0,,VZS,Formación,0
+9507,403,146,1,1,1,,YN,Formación,0
+9507,403,146,2,1,1,,YN,Formación,0
+9507,403,164,2,1,1,,YN,Formación,0
+6898,403,146,1,1,1,MF,YN,Formación,0
+8237,403,153,2,1,0,UMAE,DFN,Formación,0
+8249,403,153,2,1,0,UMAE,DFN,Formación,0
+8259,403,153,2,1,1,UMAE,DFN,Formación,0
+8012,403,177,2,1,0,HMF,DFN,Formación,0
+7188,403,146,1,1,0,MF,DFN,Formación,0
+7188,403,146,2,2,1,MF,DFN,Formación,0
+8241,403,153,2,1,0,UMAE,DFS,Formación,1
+8257,403,153,2,2,1,UMAE,DFS,Formación,0
+8158,403,153,1,2,1,HP,DFS,Formación,0
+8132,403,153,2,1,1,HP,DFS,Formación,0
+7396,403,146,2,1,1,MF,DFS,Formación,0
+8198,467,207,2,1,1,HP,BC,Actualización,0
+6949,467,146,2,1,0,MF,BC,Actualización,0
+7333,467,146,2,1,0,MF,BC,Actualización,0
+7603,467,146,2,1,1,MF,BC,Actualización,0
+7603,467,164,2,1,0,MF,BC,Actualización,1
+13338,467,146,1,1,1,,BS,Actualización,0
+13338,467,146,3,1,0,,BS,Actualización,0
+8103,467,207,2,1,0,HMF,BS,Actualización,0
+8022,467,158,2,1,0,HMF,CC,Actualización,0
+8022,467,165,2,1,0,HMF,CC,Actualización,1
+8232,467,217,2,1,1,UMAA,CC,Actualización,0
+7535,467,146,2,1,0,MF,CC,Actualización,0
+7535,467,165,2,1,0,MF,CC,Actualización,0
+7539,467,159,2,3,1,MF,CC,Actualización,0
+7539,467,164,2,1,1,MF,CC,Actualización,0
+7605,467,187,2,1,0,MF,CC,Actualización,1
+7605,467,165,2,1,1,MF,CC,Actualización,0
+8051,467,207,2,1,0,HMF,CL,Actualización,1
+7309,467,146,1,1,0,MF,CL,Actualización,1
+7989,467,207,2,1,1,MF,CL,Actualización,0
+8086,467,158,2,1,0,HMF,CM,Actualización,0
+8086,467,146,2,1,1,HMF,CM,Actualización,0
+6885,467,146,2,1,0,MF,CS,Actualización,1
+7981,467,146,1,1,1,MF,CS,Actualización,0
+7981,467,146,2,1,1,MF,CS,Actualización,0
+7981,467,148,2,1,0,MF,CS,Actualización,0
+6933,467,148,2,1,0,MF,CS,Actualización,0
+13366,467,149,1,1,1,,CS,Actualización,0
+8017,467,146,2,1,0,HMF,CH,Actualización,0
+7997,467,146,2,1,0,MF,DG,Actualización,0
+7997,467,148,2,1,0,MF,DG,Actualización,0
+7997,467,165,2,1,0,MF,DG,Actualización,1
+7997,467,207,2,1,0,MF,DG,Actualización,1
+7997,467,216,2,1,0,MF,DG,Actualización,0
+8033,467,146,2,1,1,HMF,GT,Actualización,0
+8034,467,146,2,3,1,HMF,GT,Actualización,1
+8035,467,146,2,1,0,HMF,GT,Actualización,0
+7847,467,164,2,1,1,MF,GT,Actualización,0
+7853,467,146,2,1,0,MF,GT,Actualización,0
+7856,467,164,1,1,1,MF,GT,Actualización,0
+8099,467,165,2,1,0,HMF,GR,Actualización,0
+7870,467,146,1,2,1,MF,GR,Actualización,0
+7870,467,146,2,2,0,MF,GR,Actualización,2
+7870,467,165,2,1,0,MF,GR,Actualización,1
+8042,467,146,1,1,0,HMF,HG,Actualización,0
+8042,467,148,1,1,0,HMF,HG,Actualización,0
+8043,467,146,2,1,0,HMF,HG,Actualización,0
+8044,467,146,2,1,1,HMF,HG,Actualización,0
+7885,467,146,2,1,1,MF,HG,Actualización,0
+8125,467,158,2,1,1,HP,JC,Actualización,0
+8011,467,146,2,1,1,HMF,JC,Actualización,0
+8068,467,146,2,1,1,HMF,JC,Actualización,0
+6987,467,146,2,1,1,MF,JC,Actualización,0
+7283,467,146,2,1,1,MF,JC,Actualización,0
+7349,467,146,1,1,1,MF,MCO,Actualización,0
+7353,467,146,2,1,1,MF,MCO,Actualización,0
+7455,467,146,1,1,0,MF,MCP,Actualización,0
+7465,467,158,2,1,1,MF,MCP,Actualización,0
+7495,467,146,2,1,0,MF,MCP,Actualización,0
+7499,467,165,2,1,0,MF,MCP,Actualización,1
+7517,467,207,2,1,1,MF,MCP,Actualización,0
+7521,467,89,1,1,1,MF,MCP,Actualización,0
+8205,467,165,2,1,0,HP,MN,Actualización,0
+8025,467,146,2,1,1,HMF,MN,Actualización,0
+7599,467,146,2,1,1,MF,MN,Actualización,0
+7611,467,158,2,1,0,MF,MN,Actualización,1
+7611,467,159,2,1,0,MF,MN,Actualización,1
+7611,467,164,2,1,0,MF,MN,Actualización,0
+7613,467,146,2,1,0,MF,MN,Actualización,1
+7615,467,146,1,1,1,MF,MN,Actualización,0
+7615,467,146,2,1,1,MF,MN,Actualización,0
+7950,467,146,2,1,1,MF,MN,Actualización,0
+11334,467,147,2,1,0,,MN,Actualización,0
+11317,467,147,1,1,1,,MN,Actualización,0
+11270,467,147,2,1,1,,MN,Actualización,0
+8108,467,146,2,1,1,HMF,MS,Actualización,0
+8029,467,146,1,1,1,HMF,MS,Actualización,0
+8029,467,146,2,1,1,HMF,MS,Actualización,0
+8029,467,165,2,1,0,HMF,MS,Actualización,0
+7700,467,146,2,1,0,MF,MS,Actualización,0
+7703,467,146,2,1,1,MF,MS,Actualización,0
+7717,467,146,1,1,0,MF,NT,Actualización,1
+10909,467,146,2,1,1,,NL,Actualización,0
+8255,467,165,2,1,0,UMAE,NL,Actualización,0
+8031,467,146,2,1,1,HMF,NL,Actualización,0
+8032,467,146,1,1,1,HMF,NL,Actualización,0
+7734,467,146,1,1,1,MF,NL,Actualización,0
+7734,467,146,2,2,2,MF,NL,Actualización,0
+7734,467,148,2,1,1,MF,NL,Actualización,0
+7998,467,146,1,1,0,MF,NL,Actualización,0
+7998,467,146,3,1,1,MF,NL,Actualización,0
+7776,467,146,1,1,0,MF,NL,Actualización,1
+7801,467,146,1,1,1,MF,NL,Actualización,0
+7802,467,159,1,1,0,MF,NL,Actualización,0
+7802,467,159,2,6,0,MF,NL,Actualización,3
+7802,467,146,1,2,2,MF,NL,Actualización,0
+7802,467,146,2,4,2,MF,NL,Actualización,0
+7802,467,148,1,3,0,MF,NL,Actualización,1
+7802,467,148,2,2,0,MF,NL,Actualización,2
+7802,467,165,1,1,0,MF,NL,Actualización,0
+7802,467,165,2,2,1,MF,NL,Actualización,1
+7802,467,216,1,1,0,MF,NL,Actualización,0
+7802,467,164,2,2,0,MF,NL,Actualización,2
+7803,467,164,2,1,0,MF,NL,Actualización,1
+8036,467,146,2,1,1,HMF,OC,Actualización,0
+7854,467,146,1,1,0,MF,OC,Actualización,0
+7854,467,146,2,1,0,MF,OC,Actualización,0
+7855,467,159,2,1,0,MF,OC,Actualización,1
+8209,467,158,1,1,1,HP,PL,Actualización,0
+7886,467,146,2,2,0,MF,PL,Actualización,1
+7891,467,146,1,2,1,MF,PL,Actualización,1
+7891,467,146,2,1,1,MF,PL,Actualización,0
+7892,467,146,2,2,2,MF,PL,Actualización,0
+7277,467,146,1,1,1,MF,PL,Actualización,0
+7281,467,146,2,1,1,MF,PL,Actualización,0
+11813,467,146,1,2,0,,PL,Actualización,2
+11813,467,146,2,1,0,,PL,Actualización,1
+7647,467,146,2,1,0,MF,QT,Actualización,1
+7648,467,146,2,2,0,MF,QT,Actualización,1
+7650,467,158,1,1,0,MF,QT,Actualización,1
+7650,467,207,1,1,1,MF,QT,Actualización,0
+7650,467,216,2,1,0,MF,QT,Actualización,1
+7652,467,146,2,1,0,MF,QT,Actualización,0
+7652,467,165,2,1,0,MF,QT,Actualización,0
+7690,467,146,2,1,0,MF,QR,Actualización,0
+7690,467,216,2,1,0,MF,QR,Actualización,0
+7695,467,165,2,1,0,MF,QR,Actualización,1
+8164,467,165,1,1,1,HP,SP,Actualización,0
+8005,467,207,2,1,0,HMF,SP,Actualización,0
+7747,467,146,2,1,1,MF,SP,Actualización,0
+7767,467,148,1,1,0,MF,SP,Actualización,0
+7769,467,146,1,1,0,MF,SP,Actualización,0
+7769,467,146,2,1,0,MF,SP,Actualización,0
+8047,467,165,2,1,0,HMF,SL,Actualización,0
+8047,467,207,1,1,0,HMF,SL,Actualización,1
+8047,467,207,2,3,3,HMF,SL,Actualización,0
+7158,467,146,1,1,0,MF,SL,Actualización,1
+7158,467,146,2,3,1,MF,SL,Actualización,1
+7158,467,165,2,1,0,MF,SL,Actualización,1
+7158,467,216,2,2,0,MF,SL,Actualización,2
+6886,467,146,1,1,1,MF,SL,Actualización,0
+7980,467,146,1,1,0,MF,SL,Actualización,1
+7980,467,164,1,1,0,MF,SL,Actualización,1
+7930,467,148,2,1,0,MF,SL,Actualización,0
+8186,467,207,2,2,2,HP,SR,Actualización,0
+6924,467,146,2,1,1,MF,SR,Actualización,0
+7424,467,146,1,1,1,MF,SR,Actualización,0
+7238,467,146,2,1,1,MF,SR,Actualización,0
+8160,467,165,2,1,1,HP,TC,Actualización,0
+8160,467,207,1,1,1,HP,TC,Actualización,0
+7418,467,146,1,1,0,MF,TC,Actualización,0
+8210,467,165,1,1,0,HP,TS,Actualización,0
+7128,467,146,2,1,0,MF,TS,Actualización,1
+7478,467,165,2,1,1,MF,TS,Actualización,0
+7130,467,159,2,1,0,MF,TS,Actualización,1
+7130,467,146,2,1,0,MF,TS,Actualización,1
+8079,467,146,2,1,1,HMF,TL,Actualización,0
+8079,467,165,2,1,0,HMF,TL,Actualización,0
+6878,467,148,2,1,1,MF,TL,Actualización,0
+8018,467,146,1,1,0,HMF,VZN,Actualización,0
+8004,467,165,2,1,0,HMF,VZN,Actualización,0
+7456,467,146,2,1,1,MF,VZN,Actualización,0
+7290,467,146,1,1,0,MF,VZN,Actualización,1
+7290,467,146,2,1,0,MF,VZN,Actualización,0
+7484,467,146,2,1,0,MF,VZN,Actualización,0
+7586,467,164,2,2,2,MF,VZN,Actualización,0
+7378,467,159,2,1,0,MF,VZN,Actualización,0
+8000,467,158,2,2,1,HMF,VZS,Actualización,1
+8000,467,146,2,1,0,HMF,VZS,Actualización,1
+8000,467,164,2,1,0,HMF,VZS,Actualización,0
+9154,467,207,2,1,0,,VZS,Actualización,1
+9154,467,168,1,1,0,,VZS,Actualización,0
+8087,467,146,2,1,1,HMF,VZS,Actualización,0
+6946,467,164,2,1,1,MF,VZS,Actualización,0
+7194,467,146,1,7,3,MF,VZS,Actualización,2
+7194,467,146,2,6,3,MF,VZS,Actualización,3
+7194,467,148,1,1,0,MF,VZS,Actualización,1
+7350,467,164,2,1,0,MF,VZS,Actualización,1
+7584,467,159,2,1,0,MF,VZS,Actualización,1
+7584,467,187,2,1,1,MF,VZS,Actualización,0
+7036,467,164,2,2,1,MF,YN,Actualización,0
+7442,467,148,1,1,0,MF,YN,Actualización,0
+8114,467,207,2,1,1,HUMAA,ZS,Actualización,0
+8118,467,165,2,1,0,HP,DFN,Actualización,1
+8118,467,207,2,1,1,HP,DFN,Actualización,0
+7056,467,146,1,1,0,MF,DFN,Actualización,0
+7056,467,146,2,1,1,MF,DFN,Actualización,0
+7188,467,146,1,1,0,MF,DFN,Actualización,0
+7574,467,146,2,1,1,MF,DFN,Actualización,0
+7060,467,146,2,1,1,MF,DFN,Actualización,0
+7176,467,146,2,1,1,MF,DFN,Actualización,0
+8014,467,146,1,1,1,HMF,DFS,Actualización,0
+7598,467,146,2,1,1,MF,DFS,Actualización,0
+7174,467,146,1,1,1,MF,DFS,Actualización,0
+7426,467,146,2,1,1,MF,DFS,Actualización,0
+8130,467,165,2,1,1,HP,DFS,Actualización,0
+8134,467,164,2,2,0,HP,DFS,Actualización,2
+8112,467,146,1,2,2,HMF,DFS,Actualización,0
+7316,467,146,2,1,1,MF,DFS,Actualización,0
+7064,467,146,1,1,0,MF,DFS,Actualización,1
+7064,467,146,2,3,0,MF,DFS,Actualización,2
+8179,464,164,2,1,1,HP,AS,Capacitación,0
+7343,464,159,2,1,1,MF,BC,Capacitación,0
+8041,464,165,2,1,0,HMF,CL,Capacitación,0
+8041,464,164,2,1,1,HMF,CL,Capacitación,0
+8219,464,158,2,1,0,HP,CL,Capacitación,0
+7778,464,164,2,2,2,MF,CM,Capacitación,0
+8037,464,165,1,1,0,HMF,CS,Capacitación,0
+8211,464,165,1,1,0,HP,CH,Capacitación,0
+8153,464,158,1,1,0,HP,DG,Capacitación,0
+8155,464,180,2,1,0,HP,DG,Capacitación,0
+8155,464,177,2,1,0,HP,DG,Capacitación,0
+8155,464,158,1,1,0,HP,DG,Capacitación,1
+8155,464,158,2,1,0,HP,DG,Capacitación,0
+8155,464,165,2,1,0,HP,DG,Capacitación,1
+8091,464,165,1,1,0,HMF,GT,Capacitación,0
+8208,464,176,2,1,1,HP,GR,Capacitación,0
+8208,464,158,2,1,1,HP,GR,Capacitación,0
+8011,464,165,2,1,0,HMF,JC,Capacitación,0
+6991,464,158,2,1,1,MF,JC,Capacitación,0
+6991,464,159,2,1,0,MF,JC,Capacitación,0
+7283,464,164,2,1,0,MF,JC,Capacitación,0
+8131,464,165,2,1,0,HP,MCO,Capacitación,0
+8025,464,165,2,1,0,HMF,MN,Capacitación,0
+11538,464,166,2,3,0,,MN,Capacitación,1
+7946,464,159,2,1,0,MF,MN,Capacitación,0
+7704,464,158,1,1,0,MF,MS,Capacitación,0
+10772,464,158,1,1,0,,OC,Capacitación,0
+8207,464,165,2,1,0,HP,QT,Capacitación,0
+8207,464,164,2,2,0,HP,QT,Capacitación,0
+7645,464,167,2,1,0,MF,QT,Capacitación,0
+7648,464,158,2,2,0,MF,QT,Capacitación,0
+7648,464,165,2,1,1,MF,QT,Capacitación,0
+8001,464,178,2,1,0,HMF,QR,Capacitación,0
+8001,464,158,1,1,0,HMF,QR,Capacitación,1
+8001,464,158,2,3,1,HMF,QR,Capacitación,0
+8001,464,165,1,1,0,HMF,QR,Capacitación,0
+8001,464,165,2,5,0,HMF,QR,Capacitación,2
+8001,464,164,2,1,0,HMF,QR,Capacitación,1
+8001,464,167,2,1,0,HMF,QR,Capacitación,1
+8142,464,158,1,1,0,HP,SR,Capacitación,0
+8142,464,158,2,1,0,HP,SR,Capacitación,0
+8142,464,165,2,1,1,HP,SR,Capacitación,0
+8142,464,164,2,1,1,HP,SR,Capacitación,0
+7218,464,159,2,1,0,MF,TC,Capacitación,0
+7370,464,175,2,1,0,MF,TC,Capacitación,0
+8020,464,158,2,1,0,HMF,TL,Capacitación,1
+8239,464,164,2,1,0,UMAE,VZN,Capacitación,0
+8150,464,172,2,1,0,HP,VZN,Capacitación,0
+8742,464,177,2,1,1,,VZN,Capacitación,0
+8742,464,165,2,5,0,,VZN,Capacitación,0
+8742,464,167,2,1,0,,VZN,Capacitación,0
+8008,464,158,1,1,0,HMF,VZN,Capacitación,0
+8008,464,165,2,1,0,HMF,VZN,Capacitación,0
+8004,464,178,2,1,0,HMF,VZN,Capacitación,1
+8004,464,165,1,2,0,HMF,VZN,Capacitación,1
+8004,464,165,2,2,0,HMF,VZN,Capacitación,2
+8004,464,167,2,2,0,HMF,VZN,Capacitación,1
+7344,464,172,2,1,0,MF,VZN,Capacitación,0
+7106,464,164,2,1,1,MF,VZS,Capacitación,0
+8114,464,158,1,1,0,HUMAA,ZS,Capacitación,1
+8114,464,158,2,2,0,HUMAA,ZS,Capacitación,1
+8114,464,165,1,1,0,HUMAA,ZS,Capacitación,1
+8114,464,165,2,1,0,HUMAA,ZS,Capacitación,0
+8156,464,158,1,1,0,HP,DFN,Capacitación,0
+8156,464,165,1,1,0,HP,DFN,Capacitación,0
+7542,464,167,2,1,1,MF,DFN,Capacitación,0
+6906,464,164,1,1,0,MF,DFN,Capacitación,1
+8184,464,176,2,2,1,HP,DFN,Capacitación,0
+8184,464,165,2,1,0,HP,DFN,Capacitación,0
+7056,464,158,1,1,0,MF,DFN,Capacitación,0
+7056,464,158,2,1,0,MF,DFN,Capacitación,0
+7056,464,165,1,1,0,MF,DFN,Capacitación,1
+7574,464,158,1,1,1,MF,DFN,Capacitación,0
+8134,464,158,1,1,0,HP,DFS,Capacitación,0
+8134,464,158,2,1,1,HP,DFS,Capacitación,0
+8134,464,165,2,1,0,HP,DFS,Capacitación,0
+8163,463,96,1,1,0,HP,SP,Sin tipo asignado,1
+8163,463,153,1,7,3,HP,SP,Sin tipo asignado,1
+8163,463,153,2,5,3,HP,SP,Sin tipo asignado,2
+8164,463,120,2,1,0,HP,SP,Sin tipo asignado,0
+8164,463,111,1,1,0,HP,SP,Sin tipo asignado,0
+8164,463,99,1,1,0,HP,SP,Sin tipo asignado,0
+8164,463,88,2,2,1,HP,SP,Sin tipo asignado,0
+8164,463,153,1,25,5,HP,SP,Sin tipo asignado,10
+8164,463,153,2,19,5,HP,SP,Sin tipo asignado,7
+8164,463,146,2,1,0,HP,SP,Sin tipo asignado,0
+8003,463,131,2,1,0,HMF,SP,Sin tipo asignado,0
+8003,463,122,1,1,0,HMF,SP,Sin tipo asignado,0
+8003,463,99,1,1,0,HMF,SP,Sin tipo asignado,0
+8003,463,90,1,1,0,HMF,SP,Sin tipo asignado,0
+8003,463,88,1,2,1,HMF,SP,Sin tipo asignado,0
+8003,463,88,2,3,3,HMF,SP,Sin tipo asignado,0
+8003,463,153,1,9,3,HMF,SP,Sin tipo asignado,4
+8003,463,153,2,9,4,HMF,SP,Sin tipo asignado,4
+8003,463,146,1,1,1,HMF,SP,Sin tipo asignado,0
+8003,463,146,2,1,1,HMF,SP,Sin tipo asignado,0
+8005,463,120,1,1,0,HMF,SP,Sin tipo asignado,0
+8005,463,88,1,2,1,HMF,SP,Sin tipo asignado,0
+8005,463,88,2,1,0,HMF,SP,Sin tipo asignado,0
+8005,463,88,3,1,1,HMF,SP,Sin tipo asignado,0
+8005,463,96,1,3,1,HMF,SP,Sin tipo asignado,0
+8005,463,96,2,1,0,HMF,SP,Sin tipo asignado,0
+8005,463,153,1,11,1,HMF,SP,Sin tipo asignado,3
+8005,463,153,2,9,0,HMF,SP,Sin tipo asignado,5
+8056,463,85,1,1,0,HMF,SP,Sin tipo asignado,1
+8056,463,153,1,1,1,HMF,SP,Sin tipo asignado,0
+10909,462,127,1,1,0,,NL,Capacitación,1
+10909,462,128,2,1,1,,NL,Capacitación,0
+10909,462,126,1,1,1,,NL,Capacitación,0
+10909,462,144,2,1,1,,NL,Capacitación,0
+10909,462,146,1,2,2,,NL,Capacitación,0
+10909,462,146,2,4,2,,NL,Capacitación,1
+10909,462,146,3,1,1,,NL,Capacitación,0
+10909,462,148,1,1,0,,NL,Capacitación,1
+8170,462,111,1,1,1,HP,NL,Capacitación,0
+8031,462,146,1,7,4,HMF,NL,Capacitación,1
+8031,462,146,2,6,1,HMF,NL,Capacitación,2
+8032,462,89,1,2,0,HMF,NL,Capacitación,1
+8032,462,89,2,2,0,HMF,NL,Capacitación,0
+8032,462,146,1,1,1,HMF,NL,Capacitación,0
+8032,462,146,2,9,5,HMF,NL,Capacitación,4
+8089,462,148,1,1,0,HMF,NL,Capacitación,1
+8090,462,88,1,1,0,HMF,NL,Capacitación,0
+8090,462,148,1,2,1,HMF,NL,Capacitación,0
+7733,462,100,1,1,1,MF,NL,Capacitación,0
+7733,462,89,1,1,1,MF,NL,Capacitación,0
+7733,462,146,1,11,6,MF,NL,Capacitación,4
+7733,462,146,2,11,3,MF,NL,Capacitación,7
+7734,462,89,1,1,1,MF,NL,Capacitación,0
+7734,462,89,2,1,1,MF,NL,Capacitación,0
+7734,462,146,1,1,0,MF,NL,Capacitación,1
+7998,462,88,1,1,1,MF,NL,Capacitación,0
+7998,462,97,2,1,1,MF,NL,Capacitación,0
+7998,462,89,1,2,2,MF,NL,Capacitación,0
+7998,462,146,2,1,0,MF,NL,Capacitación,0
+7735,462,92,1,1,1,MF,NL,Capacitación,0
+7735,462,146,2,1,1,MF,NL,Capacitación,0
+7736,462,81,1,1,0,MF,NL,Capacitación,0
+7736,462,146,1,1,0,MF,NL,Capacitación,1
+7737,462,146,2,1,1,MF,NL,Capacitación,0
+7739,462,95,1,1,0,MF,NL,Capacitación,1
+7739,462,146,1,6,4,MF,NL,Capacitación,2
+7739,462,146,2,6,1,MF,NL,Capacitación,3
+7739,462,148,1,1,0,MF,NL,Capacitación,0
+7741,462,148,1,1,0,MF,NL,Capacitación,0
+7742,462,100,1,1,0,MF,NL,Capacitación,0
+7744,462,146,2,3,2,MF,NL,Capacitación,0
+7745,462,146,2,4,3,MF,NL,Capacitación,0
+7774,462,100,2,1,0,MF,NL,Capacitación,1
+7774,462,89,1,2,0,MF,NL,Capacitación,1
+7774,462,146,1,1,0,MF,NL,Capacitación,1
+7774,462,146,2,3,2,MF,NL,Capacitación,0
+7774,462,148,1,1,0,MF,NL,Capacitación,0
+7775,462,106,1,1,0,MF,NL,Capacitación,0
+7775,462,89,1,3,0,MF,NL,Capacitación,3
+7775,462,89,2,2,0,MF,NL,Capacitación,1
+7775,462,96,1,1,0,MF,NL,Capacitación,1
+7776,462,146,1,2,2,MF,NL,Capacitación,0
+7776,462,146,2,3,3,MF,NL,Capacitación,0
+7780,462,106,2,1,0,MF,NL,Capacitación,1
+7780,462,146,1,4,3,MF,NL,Capacitación,1
+7780,462,146,2,5,5,MF,NL,Capacitación,0
+7782,462,89,1,1,0,MF,NL,Capacitación,1
+7783,462,92,2,1,1,MF,NL,Capacitación,0
+7783,462,146,1,2,0,MF,NL,Capacitación,2
+7783,462,146,2,4,0,MF,NL,Capacitación,4
+7783,462,148,1,1,0,MF,NL,Capacitación,1
+7784,462,146,1,2,1,MF,NL,Capacitación,1
+7784,462,146,2,1,0,MF,NL,Capacitación,1
+7785,462,146,1,1,0,MF,NL,Capacitación,0
+7786,462,148,2,1,1,MF,NL,Capacitación,0
+7787,462,89,1,2,0,MF,NL,Capacitación,2
+7787,462,89,2,1,0,MF,NL,Capacitación,1
+7787,462,146,1,2,0,MF,NL,Capacitación,1
+7787,462,146,2,11,1,MF,NL,Capacitación,7
+7787,462,148,1,3,1,MF,NL,Capacitación,2
+7789,462,92,1,1,0,MF,NL,Capacitación,0
+7793,462,146,1,1,0,MF,NL,Capacitación,0
+7794,462,148,1,1,0,MF,NL,Capacitación,1
+7794,462,148,2,1,0,MF,NL,Capacitación,1
+7795,462,148,1,1,0,MF,NL,Capacitación,1
+7795,462,148,2,1,0,MF,NL,Capacitación,0
+7797,462,81,1,1,1,MF,NL,Capacitación,0
+7801,462,92,2,1,0,MF,NL,Capacitación,1
+7801,462,89,1,1,0,MF,NL,Capacitación,1
+7801,462,146,1,1,0,MF,NL,Capacitación,1
+7802,462,100,1,1,0,MF,NL,Capacitación,1
+7802,462,89,1,1,1,MF,NL,Capacitación,0
+7802,462,89,2,1,1,MF,NL,Capacitación,0
+7802,462,146,1,4,3,MF,NL,Capacitación,0
+7802,462,146,2,3,1,MF,NL,Capacitación,0
+7802,462,148,1,2,2,MF,NL,Capacitación,0
+7803,462,100,2,1,1,MF,NL,Capacitación,0
+7803,462,89,1,1,0,MF,NL,Capacitación,0
+7803,462,89,2,4,4,MF,NL,Capacitación,0
+7803,462,146,1,4,3,MF,NL,Capacitación,0
+7803,462,146,2,9,8,MF,NL,Capacitación,1
+7803,462,148,2,3,2,MF,NL,Capacitación,1
+10790,462,89,2,1,1,,NL,Capacitación,0
+10790,462,146,2,2,1,,NL,Capacitación,1
+10790,462,148,2,1,0,,NL,Capacitación,0
+7804,462,89,1,1,0,MF,NL,Capacitación,0
+7805,462,89,2,1,1,MF,NL,Capacitación,0
+7968,462,92,1,1,1,MF,NL,Capacitación,0
+7969,462,92,1,1,1,MF,NL,Capacitación,0
+8110,466,146,1,1,0,HMF,BC,Actualización,1
+8110,466,164,2,1,0,HMF,BC,Actualización,0
+6971,466,187,2,1,0,MF,BC,Actualización,1
+7333,466,159,2,1,0,MF,BC,Actualización,0
+7469,466,146,1,1,0,MF,BC,Actualización,0
+7523,466,146,1,1,0,MF,BC,Actualización,1
+7523,466,146,2,3,1,MF,BC,Actualización,2
+7523,466,148,2,1,0,MF,BC,Actualización,1
+7957,466,148,1,1,0,MF,BC,Actualización,1
+13338,466,146,2,1,1,,BS,Actualización,0
+6899,466,146,2,1,1,MF,BS,Actualización,0
+8021,466,146,1,1,1,HMF,CC,Actualización,0
+7571,466,146,2,1,1,MF,CC,Actualización,0
+8178,466,165,1,1,0,HP,CL,Actualización,1
+8178,466,165,2,1,0,HP,CL,Actualización,0
+8040,466,146,2,1,0,HMF,CL,Actualización,0
+8046,466,159,1,3,1,HMF,CL,Actualización,2
+8046,466,159,2,2,0,HMF,CL,Actualización,1
+8046,466,164,1,1,0,HMF,CL,Actualización,0
+7107,466,158,2,1,0,MF,CL,Actualización,0
+7989,466,164,2,1,1,MF,CL,Actualización,0
+8086,466,165,1,1,0,HMF,CM,Actualización,1
+7729,466,148,2,1,0,MF,CM,Actualización,0
+7778,466,146,2,1,1,MF,CM,Actualización,0
+7778,466,207,2,1,0,MF,CM,Actualización,0
+7897,466,146,2,1,0,MF,CS,Actualización,0
+6889,466,146,1,1,0,MF,CS,Actualización,0
+6893,466,146,2,1,1,MF,CS,Actualización,0
+8017,466,146,1,1,0,HMF,CH,Actualización,1
+8017,466,165,2,1,0,HMF,CH,Actualización,0
+8155,466,158,1,1,1,HP,DG,Actualización,0
+7668,466,146,2,1,0,MF,DG,Actualización,0
+7668,466,165,2,1,1,MF,DG,Actualización,0
+7668,466,164,2,1,1,MF,DG,Actualización,0
+8034,466,146,1,2,2,HMF,GT,Actualización,0
+8034,466,146,2,3,2,HMF,GT,Actualización,0
+8035,466,146,1,1,1,HMF,GT,Actualización,0
+8093,466,165,2,1,0,HMF,GT,Actualización,1
+7853,466,159,2,1,0,MF,GT,Actualización,0
+7853,466,146,1,2,0,MF,GT,Actualización,0
+7853,466,146,2,1,0,MF,GT,Actualización,1
+7856,466,146,2,1,1,MF,GT,Actualización,0
+8042,466,165,2,1,0,HMF,HG,Actualización,1
+7876,466,159,2,1,0,MF,HG,Actualización,1
+7876,466,146,2,1,1,MF,HG,Actualización,0
+7125,466,148,2,1,0,MF,JC,Actualización,1
+7127,466,146,1,1,1,MF,JC,Actualización,0
+7295,466,146,1,1,0,MF,JC,Actualización,1
+8131,466,165,2,1,0,HP,MCO,Actualización,1
+7361,466,146,2,1,0,MF,MCO,Actualización,0
+7381,466,146,2,1,0,MF,MCO,Actualización,0
+7381,466,165,2,1,1,MF,MCO,Actualización,0
+8204,466,165,2,1,0,HP,MCP,Actualización,1
+8204,466,164,2,1,1,HP,MCP,Actualización,0
+8143,466,158,2,1,0,HP,MCP,Actualización,1
+8143,466,165,1,1,1,HP,MCP,Actualización,0
+8143,466,165,2,1,1,HP,MCP,Actualización,0
+8222,466,158,2,1,0,HP,MCP,Actualización,0
+7441,466,146,2,1,0,MF,MCP,Actualización,1
+7509,466,146,1,1,0,MF,MCP,Actualización,0
+7509,466,146,2,1,0,MF,MCP,Actualización,1
+11552,466,148,2,1,0,,MN,Actualización,0
+8205,466,165,2,2,0,HP,MN,Actualización,0
+8151,466,165,2,1,0,HP,MN,Actualización,0
+8026,466,158,1,1,0,HMF,MN,Actualización,0
+7587,466,148,2,1,0,MF,MN,Actualización,0
+7611,466,146,2,1,0,MF,MN,Actualización,1
+8108,466,165,2,1,0,HMF,MS,Actualización,0
+8029,466,146,1,1,0,HMF,MS,Actualización,1
+8029,466,164,2,1,1,HMF,MS,Actualización,0
+7700,466,159,2,1,0,MF,MS,Actualización,1
+10909,466,158,2,1,0,,NL,Actualización,1
+8031,466,146,2,1,0,HMF,NL,Actualización,0
+7736,466,146,2,1,0,MF,NL,Actualización,0
+7776,466,146,2,2,2,MF,NL,Actualización,0
+7779,466,146,2,2,2,MF,NL,Actualización,0
+7780,466,146,1,1,0,MF,NL,Actualización,1
+7780,466,146,2,1,0,MF,NL,Actualización,0
+7786,466,146,2,1,0,MF,NL,Actualización,0
+7803,466,215,2,1,0,MF,NL,Actualización,1
+7804,466,146,1,1,1,MF,NL,Actualización,0
+7804,466,146,2,1,1,MF,NL,Actualización,0
+8036,466,146,1,1,0,HMF,OC,Actualización,0
+7886,466,158,2,1,1,MF,PL,Actualización,0
+7886,466,159,2,1,1,MF,PL,Actualización,0
+7886,466,164,2,1,1,MF,PL,Actualización,0
+7887,466,146,2,1,1,MF,PL,Actualización,0
+7887,466,165,2,1,0,MF,PL,Actualización,0
+7891,466,146,1,1,1,MF,PL,Actualización,0
+7891,466,146,2,5,0,MF,PL,Actualización,2
+7919,466,146,1,1,0,MF,PL,Actualización,1
+7919,466,146,2,1,0,MF,PL,Actualización,0
+12744,466,146,2,1,1,,QT,Actualización,0
+7655,466,165,2,1,0,MF,QT,Actualización,1
+7692,466,146,1,1,0,MF,QR,Actualización,0
+7692,466,146,2,3,0,MF,QR,Actualización,2
+8164,466,165,2,2,0,HP,SP,Actualización,1
+8003,466,146,1,1,0,HMF,SP,Actualización,0
+8003,466,165,2,1,0,HMF,SP,Actualización,1
+8005,466,216,2,1,0,HMF,SP,Actualización,1
+7747,466,165,2,1,0,MF,SP,Actualización,1
+8047,466,146,1,1,1,HMF,SL,Actualización,0
+8047,466,146,2,2,2,HMF,SL,Actualización,0
+8049,466,146,1,1,0,HMF,SL,Actualización,0
+8060,466,146,1,1,0,HMF,SL,Actualización,0
+7158,466,146,2,2,0,MF,SL,Actualización,1
+8154,466,165,2,1,0,HP,SR,Actualización,1
+8124,466,158,2,2,0,HP,SR,Actualización,2
+7424,466,146,1,1,0,MF,SR,Actualización,1
+7424,466,146,2,1,1,MF,SR,Actualización,0
+8160,466,158,2,1,1,HP,TC,Actualización,0
+8160,466,165,2,2,2,HP,TC,Actualización,0
+8160,466,207,2,1,0,HP,TC,Actualización,0
+8160,466,164,2,2,0,HP,TC,Actualización,2
+7218,466,146,2,1,1,MF,TC,Actualización,0
+8010,466,158,2,1,1,HMF,TS,Actualización,0
+8010,466,188,2,1,0,HMF,TS,Actualización,1
+8010,466,207,1,1,1,HMF,TS,Actualización,0
+8010,466,207,2,6,6,HMF,TS,Actualización,0
+8210,466,165,2,1,1,HP,TS,Actualización,0
+7086,466,146,1,1,0,MF,TS,Actualización,0
+7254,466,146,2,1,0,MF,TS,Actualización,0
+7504,466,146,2,1,1,MF,TS,Actualización,0
+7622,466,146,1,1,0,MF,TS,Actualización,0
+7622,466,146,2,1,0,MF,TS,Actualización,1
+7256,466,146,2,1,0,MF,TS,Actualización,0
+8020,466,165,1,1,0,HMF,TL,Actualización,1
+7522,466,146,1,1,1,MF,TL,Actualización,0
+8018,466,146,1,1,1,HMF,VZN,Actualización,0
+6882,466,146,2,1,1,MF,VZN,Actualización,0
+7010,466,148,1,1,0,MF,VZN,Actualización,1
+7484,466,146,2,2,1,MF,VZN,Actualización,1
+9150,466,146,2,1,1,,VZS,Actualización,0
+9154,466,158,1,1,0,,VZS,Actualización,1
+9154,466,165,2,1,0,,VZS,Actualización,1
+6948,466,146,2,1,1,MF,VZS,Actualización,0
+7282,466,146,2,1,1,MF,VZS,Actualización,0
+7030,466,146,2,1,1,MF,VZS,Actualización,0
+7194,466,146,1,2,1,MF,VZS,Actualización,1
+7350,466,164,1,1,1,MF,VZS,Actualización,0
+7350,466,164,2,4,1,MF,VZS,Actualización,1
+7584,466,146,2,1,0,MF,VZS,Actualización,0
+7232,466,146,2,1,1,MF,ZS,Actualización,0
+7466,466,146,1,1,0,MF,ZS,Actualización,0
+8269,466,207,2,1,0,CUMAE,DFN,Actualización,1
+8118,466,158,2,1,0,HP,DFN,Actualización,1
+8118,466,165,2,1,0,HP,DFN,Actualización,0
+9920,466,158,2,1,0,,DFN,Actualización,1
+9920,466,148,1,1,0,,DFN,Actualización,0
+7542,466,146,2,2,1,MF,DFN,Actualización,0
+7596,466,158,1,1,0,MF,DFN,Actualización,1
+7596,466,158,2,1,0,MF,DFN,Actualización,1
+6906,466,164,2,1,1,MF,DFN,Actualización,0
+8184,466,165,2,1,0,HP,DFN,Actualización,0
+7188,466,146,1,1,0,MF,DFN,Actualización,0
+7060,466,146,2,6,0,MF,DFN,Actualización,2
+8006,466,146,2,2,1,HMF,DFS,Actualización,1
+7174,466,146,1,4,1,MF,DFS,Actualización,1
+7174,466,146,2,8,5,MF,DFS,Actualización,1
+7592,466,146,2,2,1,MF,DFS,Actualización,0
+7446,466,146,2,3,1,MF,DFS,Actualización,1
+7602,466,146,2,1,0,MF,DFS,Actualización,0
+7058,466,146,2,1,0,MF,DFS,Actualización,0
+7066,466,146,2,1,1,MF,DFS,Actualización,0
+8140,466,165,2,1,0,HP,DFS,Actualización,1
+8130,466,165,2,1,1,HP,DFS,Actualización,0
+8134,466,158,2,1,1,HP,DFS,Actualización,0
+8134,466,159,2,1,0,HP,DFS,Actualización,1
+8134,466,164,2,3,2,HP,DFS,Actualización,0
+8112,466,146,1,1,0,HMF,DFS,Actualización,0
+8112,466,146,2,1,1,HMF,DFS,Actualización,0
+7170,466,146,2,1,0,MF,DFS,Actualización,1
+7064,466,146,2,3,0,MF,DFS,Actualización,2
+7064,466,146,3,1,0,MF,DFS,Actualización,0
+7064,466,207,2,1,0,MF,DFS,Actualización,1
+7986,466,158,2,1,1,MF,DFS,Actualización,0
+7986,466,146,2,1,1,MF,DFS,Actualización,0
+7986,466,207,2,2,0,MF,DFS,Actualización,2
+7986,466,164,2,12,1,MF,DFS,Actualización,6
+7986,466,168,1,1,1,MF,DFS,Actualización,0
+13202,465,146,1,1,1,,AS,Actualización,0
+7433,465,165,2,1,0,MF,AS,Actualización,0
+6971,465,188,2,1,0,MF,BC,Actualización,1
+7333,465,146,1,1,0,MF,BC,Actualización,0
+7343,465,146,2,1,0,MF,BC,Actualización,0
+13338,465,146,2,1,1,,BS,Actualización,0
+8101,465,146,2,1,0,HMF,BS,Actualización,0
+8103,465,165,2,1,0,HMF,BS,Actualización,0
+6945,465,148,2,1,0,MF,BS,Actualización,0
+7605,465,164,2,1,0,MF,CC,Actualización,1
+8178,465,165,1,1,0,HP,CL,Actualización,1
+8046,465,159,2,1,0,HMF,CL,Actualización,1
+8050,465,207,2,1,0,HMF,CL,Actualización,0
+7309,465,146,2,1,1,MF,CL,Actualización,0
+7740,465,146,2,1,1,MF,CM,Actualización,0
+8037,465,165,1,2,0,HMF,CS,Actualización,1
+8096,465,146,2,1,0,HMF,CS,Actualización,0
+7897,465,146,2,2,2,MF,CS,Actualización,0
+6885,465,146,1,3,1,MF,CS,Actualización,0
+6885,465,146,2,3,1,MF,CS,Actualización,1
+6887,465,146,2,2,2,MF,CS,Actualización,0
+6891,465,148,2,1,0,MF,CS,Actualización,0
+6903,465,146,2,1,0,MF,CS,Actualización,0
+9742,465,146,2,1,0,,CH,Actualización,0
+7668,465,207,2,1,1,MF,DG,Actualización,0
+8033,465,146,2,2,2,HMF,GT,Actualización,0
+8034,465,146,2,2,0,HMF,GT,Actualización,0
+8092,465,146,2,1,1,HMF,GT,Actualización,0
+7846,465,146,2,1,0,MF,GT,Actualización,0
+7848,465,146,1,1,1,MF,GT,Actualización,0
+7853,465,146,1,1,1,MF,GT,Actualización,0
+7856,465,159,2,1,1,MF,GT,Actualización,0
+7856,465,164,2,1,0,MF,GT,Actualización,1
+7858,465,146,2,1,0,MF,GT,Actualización,1
+8208,465,164,1,1,1,HP,GR,Actualización,0
+8099,465,146,3,1,1,HMF,GR,Actualización,0
+7862,465,146,2,2,2,MF,GR,Actualización,0
+8042,465,146,2,2,0,HMF,HG,Actualización,1
+8043,465,146,2,2,0,HMF,HG,Actualización,1
+7877,465,158,2,1,0,MF,HG,Actualización,1
+7880,465,146,2,1,1,MF,HG,Actualización,0
+7885,465,146,2,2,2,MF,HG,Actualización,0
+7976,465,146,1,1,1,MF,HG,Actualización,0
+8839,465,158,2,1,1,,JC,Actualización,0
+7083,465,158,2,1,1,MF,JC,Actualización,0
+7391,465,146,2,1,1,MF,MCO,Actualización,0
+7403,465,146,3,1,0,MF,MCO,Actualización,0
+8203,465,158,1,1,0,HP,MCP,Actualización,0
+8203,465,164,2,1,1,HP,MCP,Actualización,0
+8143,465,158,2,1,0,HP,MCP,Actualización,0
+8222,465,158,2,2,0,HP,MCP,Actualización,0
+8222,465,165,2,1,0,HP,MCP,Actualización,1
+7441,465,146,1,2,0,MF,MCP,Actualización,2
+7441,465,146,2,5,1,MF,MCP,Actualización,1
+7994,465,146,1,1,0,MF,MCP,Actualización,0
+7994,465,146,2,1,1,MF,MCP,Actualización,0
+7495,465,146,1,1,1,MF,MCP,Actualización,0
+7499,465,146,2,1,0,MF,MCP,Actualización,1
+7505,465,146,2,1,0,MF,MCP,Actualización,1
+7517,465,146,2,1,0,MF,MCP,Actualización,0
+7517,465,165,1,1,0,MF,MCP,Actualización,1
+7517,465,165,2,1,1,MF,MCP,Actualización,0
+8072,465,146,1,1,1,HMF,MN,Actualización,0
+7611,465,159,2,2,0,MF,MN,Actualización,1
+8108,465,159,2,1,1,HMF,MS,Actualización,0
+8108,465,164,2,1,0,HMF,MS,Actualización,1
+8029,465,146,2,1,0,HMF,MS,Actualización,0
+7700,465,146,2,1,0,MF,MS,Actualización,1
+7703,465,146,1,1,0,MF,MS,Actualización,0
+8030,465,158,2,1,1,HMF,NT,Actualización,0
+7707,465,146,1,1,1,MF,NT,Actualización,0
+7998,465,146,2,1,0,MF,NL,Actualización,1
+7741,465,148,1,2,0,MF,NL,Actualización,0
+7741,465,148,2,3,0,MF,NL,Actualización,0
+7774,465,146,1,1,1,MF,NL,Actualización,0
+7779,465,146,2,1,1,MF,NL,Actualización,0
+7803,465,146,1,3,1,MF,NL,Actualización,2
+7803,465,146,2,1,1,MF,NL,Actualización,0
+7803,465,148,1,1,0,MF,NL,Actualización,1
+7803,465,148,2,3,0,MF,NL,Actualización,1
+8174,465,158,2,1,0,HP,OC,Actualización,1
+7844,465,146,2,2,1,MF,OC,Actualización,0
+7855,465,146,2,1,1,MF,OC,Actualización,0
+7891,465,146,1,2,1,MF,PL,Actualización,1
+7892,465,164,2,1,1,MF,PL,Actualización,0
+7243,465,146,1,1,1,MF,PL,Actualización,0
+7253,465,146,1,1,0,MF,PL,Actualización,0
+7647,465,146,2,2,1,MF,QT,Actualización,0
+7650,465,216,2,1,0,MF,QT,Actualización,0
+8206,465,165,2,1,1,HP,QR,Actualización,0
+7695,465,146,1,4,0,MF,QR,Actualización,2
+7695,465,146,2,1,0,MF,QR,Actualización,1
+8164,465,165,2,1,0,HP,SP,Actualización,0
+8005,465,216,1,1,0,HMF,SP,Actualización,0
+8005,465,217,2,1,0,HMF,SP,Actualización,1
+13668,465,146,2,1,1,,SL,Actualización,0
+8185,465,207,2,1,0,HP,SL,Actualización,1
+8119,465,158,2,1,0,HP,SL,Actualización,1
+8047,465,146,2,4,3,HMF,SL,Actualización,1
+8325,465,166,2,1,0,,SL,Actualización,1
+8224,465,164,2,1,1,HP,SL,Actualización,0
+7108,465,146,2,1,1,MF,SL,Actualización,0
+6886,465,146,2,2,2,MF,SL,Actualización,0
+8142,465,165,1,1,0,HP,SR,Actualización,0
+8160,465,165,2,1,1,HP,TC,Actualización,0
+7122,465,146,1,1,0,MF,TC,Actualización,0
+8196,465,165,2,1,0,HP,TS,Actualización,0
+8196,465,164,2,1,1,HP,TS,Actualización,0
+7502,465,165,2,1,1,MF,TS,Actualización,0
+6874,465,164,2,1,1,MF,TS,Actualización,0
+7086,465,146,1,1,0,MF,TS,Actualización,0
+8576,465,164,2,2,0,,TS,Actualización,1
+7478,465,207,2,1,1,MF,TS,Actualización,0
+7990,465,158,1,1,0,MF,TS,Actualización,1
+7990,465,158,2,2,0,MF,TS,Actualización,2
+7990,465,165,2,8,0,MF,TS,Actualización,8
+7990,465,164,2,1,1,MF,TS,Actualización,0
+7622,465,207,1,1,0,MF,TS,Actualización,0
+7256,465,146,2,2,1,MF,TS,Actualización,1
+8020,465,146,2,3,1,HMF,TL,Actualización,1
+8079,465,165,2,1,0,HMF,TL,Actualización,1
+7476,465,146,2,1,0,MF,TL,Actualización,0
+7006,465,146,2,1,0,MF,TL,Actualización,0
+7004,465,146,2,1,0,MF,TL,Actualización,0
+8150,465,207,2,1,1,HP,VZN,Actualización,0
+8742,465,165,2,1,0,,VZN,Actualización,1
+8018,465,146,2,1,0,HMF,VZN,Actualización,0
+7456,465,146,1,2,0,MF,VZN,Actualización,0
+7456,465,146,2,1,1,MF,VZN,Actualización,0
+6882,465,148,1,1,0,MF,VZN,Actualización,0
+7484,465,165,2,1,1,MF,VZN,Actualización,0
+7378,465,146,2,1,1,MF,VZN,Actualización,0
+8190,465,165,2,1,0,HP,VZS,Actualización,0
+7350,465,164,2,1,1,MF,VZS,Actualización,0
+7584,465,159,2,1,0,MF,VZS,Actualización,1
+7584,465,146,1,1,1,MF,VZS,Actualización,0
+6898,465,146,1,1,1,MF,YN,Actualización,0
+7908,465,146,2,1,1,MF,YN,Actualización,0
+7232,465,159,1,1,0,MF,ZS,Actualización,0
+6900,465,164,2,1,0,MF,ZS,Actualización,1
+7208,465,159,2,1,0,MF,ZS,Actualización,1
+7052,465,216,1,1,0,MF,ZS,Actualización,0
+7052,465,216,2,1,0,MF,ZS,Actualización,0
+9920,465,146,2,1,1,,DFN,Actualización,0
+7542,465,159,2,2,0,MF,DFN,Actualización,0
+7542,465,146,2,1,0,MF,DFN,Actualización,0
+7542,465,165,2,1,0,MF,DFN,Actualización,0
+7388,465,146,2,1,1,MF,DFN,Actualización,0
+7388,465,165,2,2,0,MF,DFN,Actualización,1
+7388,465,164,2,1,1,MF,DFN,Actualización,0
+7050,465,146,2,1,1,MF,DFN,Actualización,0
+6906,465,164,2,3,1,MF,DFN,Actualización,0
+6908,465,146,1,2,2,MF,DFN,Actualización,0
+6908,465,146,2,1,0,MF,DFN,Actualización,1
+6908,465,148,1,1,0,MF,DFN,Actualización,1
+7056,465,146,1,4,0,MF,DFN,Actualización,2
+7056,465,146,2,4,0,MF,DFN,Actualización,3
+7448,465,164,2,1,0,MF,DFN,Actualización,1
+7172,465,146,1,1,0,MF,DFS,Actualización,0
+7172,465,146,2,1,1,MF,DFS,Actualización,0
+7174,465,165,2,1,0,MF,DFS,Actualización,1
+7162,465,146,2,1,0,MF,DFS,Actualización,0
+7446,465,146,1,1,1,MF,DFS,Actualización,0
+7984,465,164,2,7,3,MF,DFS,Actualización,1
+8112,465,165,2,1,1,HMF,DFS,Actualización,0
+6910,465,146,2,2,0,MF,DFS,Actualización,1
+7396,465,146,2,1,1,MF,DFS,Actualización,0
+7170,465,146,2,1,0,MF,DFS,Actualización,0
+7316,465,146,1,1,0,MF,DFS,Actualización,0
+7316,465,146,2,10,1,MF,DFS,Actualización,5
+7068,465,146,2,1,1,MF,DFS,Actualización,0
+7390,465,146,1,1,1,MF,DFS,Actualización,0
+7986,465,158,2,1,0,MF,DFS,Actualización,0
