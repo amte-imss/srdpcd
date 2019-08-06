@@ -17,6 +17,7 @@ class Welcome extends MY_Controller
         $this->load->library('form_validation');
         $this->load->model('User_model', 'usr');
         $this->lang->load('session', 'spanish');
+        $this->load->helper('date');
     }
 
     function index($code = null)
@@ -144,7 +145,8 @@ class Welcome extends MY_Controller
     {
         $output = [];
         $this->load->model('Reporte_detalle_model', 'rep_det');
-        $output['cargas'] = $this->rep_det->get_carga(array('order'=>2));
+        $output['fecha_ultima_actualizacion'] = $this->rep_det->get_carga(array('select'=>'max(car_fecha_carga) as fecha_actualizacion'));
+        $output['cargas'] = $this->rep_det->get_carga(array('order'=>'C.car_fecha_notificar desc'));
         $view = $this->load->view('welcome/reporte_detalle', $output, true);
         ///s$this->template->setDescripcion($this->mostrar_datos_generales());
         $this->template->setMainContent($view);
@@ -160,7 +162,7 @@ class Welcome extends MY_Controller
         $grupo_actual = $this->configuracion_grupos->obtener_grupo_actual();
         //$this->configuracion_grupos->set_periodo_actual();
         $filtros = array('select'=>'imal_clave_implementacion, imal_curso, imal_fecha_inicio_curso, imal_fecha_fin_curso, imal_matricula, imal_apellido_paterno,imal_apellido_materno,imal_nombre, imal_categoria,imal_adscripcion,imal_unidad,imal_delegacion,imal_folio_certificado',
-            'order'=>'imal_clave_implementacion desc, imal_fecha_inicio_curso, imal_fecha_fin_curso');
+            'order'=>'imal_clave_implementacion, imal_fecha_inicio_curso, imal_fecha_fin_curso');
         switch ($grupo_actual) {
             case En_grupos::NIVEL_CENTRAL: case En_grupos::ADMIN: case En_grupos::SUPERADMIN:
                 if($grupo_actual== En_grupos::SUPERADMIN and $tipo=='all'){
@@ -174,25 +176,18 @@ class Welcome extends MY_Controller
                 } else {
                     $filtros['where'] = "IMAL.imal_clave_unidad='".$this->configuracion_grupos->obtener_clave_unidad_actual()."'";
                 }
-                /*if($this->configuracion_grupos->obtener_is_umae()){ //Validar si pertenece a UMAE
-
-                } else { //Validar si es delegacional
-                    $filtros['where'] = "IMAL.imal_clave_delegacion='".$this->configuracion_grupos->obtener_clave_delegacion_actual()."'";
-                }*/
             break;
         }
 
         $datos['datos'] = $this->rep_det->get_implementaciones_alumnos($filtros);
-        //pr($datos);
-        //exit();
+        
         $filename = "reporte_detalle_" . date("d-m-Y_H-i-s") . ".xls";
-        //header("Content-Type: application/vnd.ms-excel;charset=UTF-8");
         header("Content-type: application/x-msexcel;charset=UTF-8");
         header("Content-Disposition: attachment; filename=$filename");
         header("Pragma: no-cache");
         header("Expires: 0");
         echo "\xEF\xBB\xBF"; //UTF-8 BOM
-        echo $this->load->view('welcome/reporte_detalle_export', $datos, TRUE);
+        echo $this->load->view('welcome/reporte_detalle_exportar', $datos, TRUE);
         exit();
     }
 

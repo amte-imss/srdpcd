@@ -17,7 +17,7 @@ foreach ($cargas as $key_c => $carga) {
 <div class="row">					
     <div class="wow bounceInRight">	
         <div class="col-lg-12 col-md-12 col-sm-12 text-right">
-            <h4 class="text-bold">Fecha de última actualización: </h4>
+            <h4 class="text-bold">Fecha de última actualización: <?php echo nice_date($fecha_ultima_actualizacion[0]['fecha_actualizacion'], 'd-m-Y'); ?></h4>
         </div>
     </div>			
 </div>	

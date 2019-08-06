@@ -15,21 +15,19 @@ class Reporte_detalle_model extends CI_Model
 
     public function get_carga($filtros = array())
     {
-        $this->db->flush_cache();
+        $this->db->flush_cache(); 
         $this->db->reset_query();
 
-        if (isset($filtros['order']) && $filtros['order'] == 2)
-        {
-            $this->db->order_by('C.car_fecha_notificar', 'DESC');
-        } else
-        {
-            $this->db->order_by('C.car_fecha_notificar', 'ASC');
+        if (isset($filtros['order']) and !empty($filtros['order'])){
+            $this->db->order_by($filtros['order']);
         }
 
-        $select = array(
-            'C.*'
-        );
-        $this->db->select($select);
+        if (isset($filtros['select']) and !empty($filtros['select'])){
+            $this->db->select($filtros['select']);
+        } else {
+            $this->db->select(array('*'));
+        }
+        
         $this->db->where('C.car_activo', true);
         $carga = $this->db->get('srdpcd.carga C')->result_array();
 
