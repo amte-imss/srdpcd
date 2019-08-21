@@ -756,4 +756,97 @@ class Catalogo extends MY_Controller
         $this->template->getTemplate();
     }
 
+    public function carga()
+    {
+        try
+        {
+            $this->db->schema = 'srdpcd';
+            //pr($this->db->list_tables()); //Muestra el listado de tablas pertenecientes al esquema seleccionado
+
+            $crud = $this->new_crud();
+            $crud->set_table('carga');
+
+            $crud->set_subject('Carga');
+            $crud->display_as('id_carga', 'ID');
+            $crud->display_as('car_descripcion', 'Descripción');
+            $crud->display_as('car_fecha_notificar', 'Fecha de notificación');
+            $crud->display_as('car_fecha_carga', 'Fecha de carga');
+            $crud->display_as('car_activo', 'Activo');
+
+            $crud->set_primary_key('id_carga', 'carga'); //Definir llaves primarias, asegurar correcta relación
+
+            $crud->columns('id_carga','car_descripcion','car_fecha_notificar','car_fecha_carga','car_activo'); //Definir columnas a mostrar en el listado y su orden
+            $crud->add_fields('id_carga','car_descripcion','car_fecha_notificar','car_fecha_carga','car_activo'); //Definir campos que se van a agregar y su orden
+            $crud->edit_fields('car_descripcion','car_fecha_notificar','car_fecha_carga','car_activo'); //Definir campos que se van a editar y su orden
+
+            $crud->set_rules('id_carga', 'ID de carga', 'trim|required');
+            $crud->set_rules('car_descripcion', 'Descripción', 'trim|required');
+            $crud->set_rules('car_fecha_notificar', 'Fecha de notificación', 'trim|required');
+
+            $crud->change_field_type('car_activo', 'true_false');
+
+            $crud->unset_delete();
+            $output = $crud->render();
+
+            $main_content = $this->load->view('catalogo/gc_output', $output, true);
+            $this->template->setMainContent($main_content);
+            $this->template->setSubTitle('Cargas');
+            $this->template->getTemplate();
+        } catch (Exception $e)
+        {
+            show_error($e->getMessage() . ' --- ' . $e->getTraceAsString());
+        }
+    }
+
+    public function implementaciones_alumnos()
+    {
+        try
+        {
+            $this->db->schema = 'srdpcd';
+            //pr($this->db->list_tables()); //Muestra el listado de tablas pertenecientes al esquema seleccionado
+
+            $crud = $this->new_crud();
+            $crud->set_table('implementaciones_alumnos');
+
+            $crud->set_subject('Implementaciones - alumnos');
+            /*$crud->display_as('id_carga', 'ID');
+            $crud->display_as('car_descripcion', 'Descripción');
+            $crud->display_as('car_fecha_notificar', 'Fecha de notificación');
+            $crud->display_as('car_fecha_carga', 'Fecha de carga');
+            $crud->display_as('car_activo', 'Activo');*/
+
+            $crud->set_primary_key('id_implementacion_alumno', 'implementaciones_alumnos'); //Definir llaves primarias, asegurar correcta relación
+
+            /*$crud->columns('id_carga','car_descripcion','car_fecha_notificar','car_fecha_carga','car_activo'); //Definir columnas a mostrar en el listado y su orden
+            $crud->add_fields('id_carga','car_descripcion','car_fecha_notificar','car_fecha_carga','car_activo'); //Definir campos que se van a agregar y su orden
+            $crud->edit_fields('car_descripcion','car_fecha_notificar','car_fecha_carga','car_activo'); //Definir campos que se van a editar y su orden
+            
+            $crud->set_rules('id_carga', 'ID de carga', 'trim|required');
+            $crud->set_rules('car_descripcion', 'Descripción', 'trim|required');
+            $crud->set_rules('car_fecha_notificar', 'Fecha de notificación', 'trim|required');*/
+
+            $crud->change_field_type('imal_imss_oportunidades', 'true_false');
+            $crud->change_field_type('imal_is_umae', 'true_false');
+            $crud->change_field_type('imal_guarderias', 'true_false');
+            $crud->change_field_type('imal_ciefd', 'true_false');
+            $crud->change_field_type('imal_externo', 'true_false');
+            $crud->change_field_type('imal_no_acceso', 'true_false');
+
+            $crud->set_relation('id_carga','carga','car_descripcion');
+
+            $crud->limit(10);
+
+            //$crud->unset_delete();
+            $output = $crud->render();
+
+            $main_content = $this->load->view('catalogo/gc_output', $output, true);
+            $this->template->setMainContent($main_content);
+            $this->template->setSubTitle('Implementaciones - alumnos');
+            $this->template->getTemplate();
+        } catch (Exception $e)
+        {
+            show_error($e->getMessage() . ' --- ' . $e->getTraceAsString());
+        }
+    }
+
 }

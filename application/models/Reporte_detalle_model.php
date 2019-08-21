@@ -27,9 +27,15 @@ class Reporte_detalle_model extends CI_Model
         } else {
             $this->db->select(array('*'));
         }
+
+        if (isset($filtros['where']) and !empty($filtros['where'])){
+            $this->db->where($filtros['where']);
+        }
         
         $this->db->where('C.car_activo', true);
+        //$this->db->save_queries = TRUE;
         $carga = $this->db->get('srdpcd.carga C')->result_array();
+        //pr($this->db->last_query());
 
         return $carga;
     }
@@ -50,6 +56,7 @@ class Reporte_detalle_model extends CI_Model
         if (isset($filtros['order']) and !empty($filtros['order'])){
             $this->db->order_by($filtros['order']);
         }
+        //$this->db->limit(20000);
         //$this->db->save_queries = TRUE;
         $carga = $this->db->get('srdpcd.implementaciones_alumnos IMAL')->result_array();
         //pr($this->db->last_query()); exit();

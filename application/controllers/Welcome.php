@@ -98,6 +98,7 @@ class Welcome extends MY_Controller
         $data['url_plan'] = $this->config->item('plan_implementaciones_url'); //plan de implementaciones por default
         $data['plan_cargado'] = $this->reporte->get_mark_file(Reportes_estaticos_model::PLAN_IMPLEMENTACIONES);
         $this->template->setSubTitle('Plan de implementación');
+        $this->template->setDescripcion($this->mostrar_datos_generales());
         $view = $this->load->view("welcome/plan_implementaciones.tpl.php", $data, true);
         $this->template->setMainContent($view);
         $this->template->getTemplate();
@@ -146,22 +147,26 @@ class Welcome extends MY_Controller
         $output = [];
         $this->load->model('Reporte_detalle_model', 'rep_det');
         $output['fecha_ultima_actualizacion'] = $this->rep_det->get_carga(array('select'=>'max(car_fecha_carga) as fecha_actualizacion'));
-        $output['cargas'] = $this->rep_det->get_carga(array('order'=>'C.car_fecha_notificar desc'));
+        $output['fecha_siguiente_actualizacion'] = $this->rep_det->get_carga(array('select'=>'min(car_fecha_notificar) as fecha_proxima', 'where'=>'car_fecha_carga IS NULL'));
+        $output['cargas'] = $this->rep_det->get_carga(array('order'=>'C.car_fecha_notificar desc, C.car_fecha_carga desc'));
         $view = $this->load->view('welcome/reporte_detalle', $output, true);
         ///s$this->template->setDescripcion($this->mostrar_datos_generales());
         $this->template->setMainContent($view);
-        $this->template->setSubTitle('Sistema de Reportes de Desarrollo Profesional Continuo a Distancia');
+        $this->template->setSubTitle('Sistema de Reportes de Desarrollo Profesional Continuo');
         $this->template->setDescripcion($this->mostrar_datos_generales());
         $this->template->getTemplate();
     }
 
-    public function reporte_detalle($tipo=null){
+    public function reporte_detalle($id, $tipo=null){
         //pr($this->session->userdata('usuario'));
         $this->load->model('Reporte_detalle_model', 'rep_det');
         $this->load->library('Configuracion_grupos');
+        $this->load->library('Phpexcel_library');
+
         $grupo_actual = $this->configuracion_grupos->obtener_grupo_actual();
         //$this->configuracion_grupos->set_periodo_actual();
-        $filtros = array('select'=>'imal_clave_implementacion, imal_curso, imal_fecha_inicio_curso, imal_fecha_fin_curso, imal_matricula, imal_apellido_paterno,imal_apellido_materno,imal_nombre, imal_categoria,imal_adscripcion,imal_unidad,imal_delegacion,imal_folio_certificado',
+        $filtros = array('select'=>'imal_clave_implementacion, imal_curso, imal_fecha_inicio_curso, imal_fecha_fin_curso, imal_matricula, imal_apellido_paterno,imal_apellido_materno,imal_nombre, imal_categoria,imal_unidad,imal_delegacion,imal_folio_certificado',
+            'where'=>"id_carga=".$this->db->escape(decrypt_base64($id))." AND imal_externo=false AND imal_guarderias=false AND imal_imss_oportunidades IS NULL AND imal_clave_delegacion <> '09'",
             'order'=>'imal_clave_implementacion, imal_fecha_inicio_curso, imal_fecha_fin_curso');
         switch ($grupo_actual) {
             case En_grupos::NIVEL_CENTRAL: case En_grupos::ADMIN: case En_grupos::SUPERADMIN:
@@ -172,22 +177,38 @@ class Welcome extends MY_Controller
             default:
                 //case En_grupos::N2_CPEI: case En_grupos::N2_DGU: case En_grupos::N2_CAME: case En_grupos::N3_JSPM: ///Se utlizó el mismo nivel
                 if(in_array($grupo_actual, array(En_grupos::N2_CPEI, En_grupos::N2_CAME, En_grupos::N3_JSPM))) { //Si es unidad, tiene diferentes condicionales a las de una UMAE
-                    $filtros['where'] = "IMAL.imal_clave_delegacion='".$this->configuracion_grupos->obtener_clave_delegacion_actual()."'";
+                    $clave_delegacion_actual = $this->configuracion_grupos->obtener_clave_delegacion_actual(); //Se obtiene la clave de la delegación a la que atiende el usuario, que puede ser diferente a la que esta adscrito
+                    switch ($clave_delegacion_actual) { //En el caso de que atienda a las 
+                        case 35: case 36:
+                            $condition = "IMAL.imal_clave_delegacion IN ('35','36')";
+                            break;
+                        case 37: case 38:
+                            $condition = "IMAL.imal_clave_delegacion IN ('37','38')";
+                            break;
+                        default:
+                            $condition = "IMAL.imal_clave_delegacion='".$clave_delegacion_actual."'";
+                            break;
+                    }
+                    $filtros['where'] .= " AND ".$condition;
                 } else {
-                    $filtros['where'] = "IMAL.imal_clave_unidad='".$this->configuracion_grupos->obtener_clave_unidad_actual()."'";
+                    $filtros['where'] .= " AND IMAL.imal_clave_unidad='".$this->configuracion_grupos->obtener_clave_unidad_actual()."'";
                 }
             break;
         }
 
-        $datos['datos'] = $this->rep_det->get_implementaciones_alumnos($filtros);
+        $datos = $this->rep_det->get_implementaciones_alumnos($filtros);
+        $columns = array('Clave del curso','Nombre del curso','Fecha inicio del curso','Fecha fin de curso','Matrícula','Apellido paterno','Apellido materno','Nombre(s)','Categoría','Unidad','Delegación','Aprobado');
+
+        $this->phpexcel_library->phpexcel_password($datos, array('title'=>'Reporte_detallado', 'columns'=>$columns, 'password'=>'LW$$_20T6-.', 'note'=>'No se reportan los alumnos pertenecientes a: IMSS Bienestar, nivel central, guarderías y externos al IMSS'));
         
-        $filename = "reporte_detalle_" . date("d-m-Y_H-i-s") . ".xls";
+        /*$filename = "reporte_detalle_" . date("d-m-Y_H-i-s") . ".xls";
         header("Content-type: application/x-msexcel;charset=UTF-8");
         header("Content-Disposition: attachment; filename=$filename");
         header("Pragma: no-cache");
         header("Expires: 0");
         echo "\xEF\xBB\xBF"; //UTF-8 BOM
-        echo $this->load->view('welcome/reporte_detalle_exportar', $datos, TRUE);
+        echo $this->load->view('welcome/reporte_detalle_exportar', $datos, TRUE); */
+
         exit();
     }
 

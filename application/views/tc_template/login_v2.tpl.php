@@ -280,13 +280,6 @@
                         </div>
                     </div>
                 </div>
-                <!--address class=""><br>
-                  <p style="text-align:center;"><b>Mesa de ayuda</b></p>
-                  <p style="text-align:center; font-size:10px;">¿Tienes alguna duda? Comunícate con nosotros: </p>
-                  <p style="text-align:center; font-size:10px;"><b>Teléfono:</b> 56 27 69 00 Ext. 21146, 21147 y 21148</p>
-                  <p style="text-align:center; font-size:10px;"><b>Email:</b> soporte.cores@gmail.com &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</p>
-                  <p style="text-align:center; font-size:10px;"><b>Horario:</b> de lunes a viernes, de 8h a 16h &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</p>
-                </address-->
             </div>
         </div>
 
