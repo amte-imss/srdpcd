@@ -7,5 +7,5 @@ $config['email'] = Array(
     'crypt' => '',
     'username' => "",
     'password' => "",
-    'setFrom' => array('email'=>'acceso.edumed@imss.gob.mx', 'name'=>'Sistema de Reportes de Desarrollo Profesional Continuo - IMSS') 
+    'setFrom' => array('email'=>'soporte.innovaedu@imss.gob.mx', 'name'=>'Sistema de Reportes de Desarrollo Profesional Continuo - IMSS') 
 );

@@ -189,7 +189,7 @@ class Welcome extends MY_Controller
                             $condition = "IMAL.imal_clave_delegacion='".$clave_delegacion_actual."'";
                             break;
                     }
-                    $filtros['where'] .= " AND ".$condition;
+                    $filtros['where'] .= " AND ".$condition." AND IMAL.imal_is_umae IS NULL";
                 } else {
                     $filtros['where'] .= " AND IMAL.imal_clave_unidad='".$this->configuracion_grupos->obtener_clave_unidad_actual()."'";
                 }
