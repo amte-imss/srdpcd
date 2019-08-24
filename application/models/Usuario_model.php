@@ -102,9 +102,11 @@ class Usuario_model extends CI_Model
         $unidad = null;
         if (strlen($clave) > 7)
         {
-            $busqueda = substr($clave, 0, 7);
-            $this->db->like('clave_unidad', $clave, 'after');
+            $busqueda = substr($clave, 0, 6);
+            //pr($busqueda);
+            $this->db->like('clave_unidad', $busqueda, 'after');
             $resultado = $this->db->get('catalogos.unidades_instituto')->result_array();
+            //pr($this->db->last_query());
             if ($resultado)
             {
                 $unidad = $resultado[0];
@@ -469,10 +471,14 @@ class Usuario_model extends CI_Model
                     {
                         //pr($usuario);
                         $unidad_instituto = $this->get_unidad($usuario['adscripcion']);
-
-                        if ($unidad_instituto == null)
+                        //pr($unidad_instituto);
+                        if ($unidad_instituto == null OR (isset($unidad_instituto['id_unidad_instituto']) AND $unidad_instituto['id_unidad_instituto']=='0'))
                         {
+                            //pr('entro');
+                            //pr($usuario['adscripcion']);
                             $unidad_instituto = $this->localiza_unidad($usuario['adscripcion']);
+                            //pr($unidad_instituto);
+                            //pr('salio');
                         }
                         if ($unidad_instituto != null)
                         {

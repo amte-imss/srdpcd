@@ -9,7 +9,7 @@
         <div class="col-lg-3 col-md-6 col-sm-6">
             <label class="col-form-label"><?php echo $lenguaje['categoria']; ?>: &nbsp;&nbsp;<?php echo $name_categoria; ?></label>
         </div>
-    <?php } 
+    <?php }
     if(in_array($grupos[0]['id_grupo'], array(En_grupos::NIVEL_CENTRAL, En_grupos::ADMIN, En_grupos::SUPERADMIN))) { ?>
         <!-- <label class="col-lg-4 col-md-6 col-sm-6 col-form-label"><?php echo $lenguaje['umae']; ?>:</label> -->
         <div class="col-lg-4 col-md-6 col-sm-6">
@@ -34,5 +34,10 @@
                 </div>
             <?php }
         }
-    }?>
+    }
+    if(isset($atiende) AND !empty(trim($atiende))) { ?>
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <label class="col-form-label"><?php echo $lenguaje['acargo']; ?>: &nbsp;&nbsp;<?php echo $atiende; ?></label>
+        </div>
+    <?php } ?>
 </div>

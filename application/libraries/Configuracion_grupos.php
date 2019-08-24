@@ -44,9 +44,14 @@ class Configuracion_grupos {
         return $this->CI->sesion['grupo_delegacion'];
     }
 
-    public function obtener_clave_delegacion_actual(){
+    public function obtener_clave_delegacion_atiende_actual(){
         //return $this->CI->sesion['clave_delegacional'];
-        return $this->CI->sesion['clave_delegacional'];
+        return $this->CI->sesion['imal_atiende']->D;
+    }
+
+    public function obtener_clave_unidad_atiende_actual(){
+        //return $this->CI->sesion['clave_delegacional'];
+        return $this->CI->sesion['imal_atiende']->U;
     }
 
     public function obtener_tipo_unidad_actual(){

@@ -42,8 +42,21 @@ class Welcome extends MY_Controller
                     case 1:
                         //redirect to home //load menu...etc etc
                         $usuario = $this->usr->get_datos_usuario($post['usuario']);
+                        $usuario['imal_atiende'] = json_decode($usuario['imal_atiende']);
+                        $usuario['atiende_delegacion'] = $usuario['atiende_umae'] = $usuario['atiende'] = '';
+                        if(isset($usuario['imal_atiende']->D) && !empty($usuario['imal_atiende']->D)){
+                            $usuario['atiende_delegacion'] = $this->usr->get_delegacion(array('where'=>'clave_delegacional in ('.$usuario['imal_atiende']->D.')', 'select'=>'clave_delegacional, nombre'));
+                            foreach ($usuario['atiende_delegacion'] as $key_d => $del_at) {
+                                $usuario['atiende'] .= $del_at['nombre'].'('.$del_at['clave_delegacional'].'), ';
+                            }
+                        }
+                        if(isset($usuario['imal_atiende']->U) && !empty($usuario['imal_atiende']->U)){
+                            $usuario['atiende_umae'] = $this->usr->get_unidad(array('where'=>'clave_unidad in ('.$usuario['imal_atiende']->U.')', 'select'=>'distinct (clave_unidad), nombre'));
+                            foreach ($usuario['atiende_umae'] as $key_u => $umae_at) {
+                                $usuario['atiende'] .= $umae_at['nombre'].'('.$umae_at['clave_unidad'].'), ';
+                            }
+                        }
                         $this->session->set_userdata('usuario', $usuario);
-                        //pr($usuario);
                         redirect(site_url() . '/welcome/dashboard');
                         break;
                     case 2:
@@ -52,6 +65,10 @@ class Welcome extends MY_Controller
                         break;
                     case 3:
                         $this->session->set_flashdata('flash_usuario', $mensajes[$valido]);
+                        $data['errores'] = 'usuario';
+                        break;
+                    case 4:
+                        $this->session->set_flashdata('flash_password', $mensajes[$valido]);
                         $data['errores'] = 'usuario';
                         break;
                 }
@@ -151,6 +168,7 @@ class Welcome extends MY_Controller
         $output['cargas'] = $this->rep_det->get_carga(array('order'=>'C.car_fecha_notificar desc, C.car_fecha_carga desc'));
         $view = $this->load->view('welcome/reporte_detalle', $output, true);
         ///s$this->template->setDescripcion($this->mostrar_datos_generales());
+        //pr($_SESSION['usuario']);
         $this->template->setMainContent($view);
         $this->template->setSubTitle('Sistema de Reportes de Desarrollo Profesional Continuo');
         $this->template->setDescripcion($this->mostrar_datos_generales());
@@ -177,21 +195,10 @@ class Welcome extends MY_Controller
             default:
                 //case En_grupos::N2_CPEI: case En_grupos::N2_DGU: case En_grupos::N2_CAME: case En_grupos::N3_JSPM: ///Se utlizó el mismo nivel
                 if(in_array($grupo_actual, array(En_grupos::N2_CPEI, En_grupos::N2_CAME, En_grupos::N3_JSPM))) { //Si es unidad, tiene diferentes condicionales a las de una UMAE
-                    $clave_delegacion_actual = $this->configuracion_grupos->obtener_clave_delegacion_actual(); //Se obtiene la clave de la delegación a la que atiende el usuario, que puede ser diferente a la que esta adscrito
-                    switch ($clave_delegacion_actual) { //En el caso de que atienda a las 
-                        case 35: case 36:
-                            $condition = "IMAL.imal_clave_delegacion IN ('35','36')";
-                            break;
-                        case 37: case 38:
-                            $condition = "IMAL.imal_clave_delegacion IN ('37','38')";
-                            break;
-                        default:
-                            $condition = "IMAL.imal_clave_delegacion='".$clave_delegacion_actual."'";
-                            break;
-                    }
-                    $filtros['where'] .= " AND ".$condition." AND IMAL.imal_is_umae IS NULL";
+                    //$clave_delegacion_actual = ; //Se obtiene la clave de la delegación a la que atiende el usuario, que puede ser diferente a la que esta adscrito
+                    $filtros['where'] .= " AND (IMAL.imal_clave_delegacion IN (".$this->configuracion_grupos->obtener_clave_delegacion_atiende_actual().") AND IMAL.imal_is_umae IS NULL)";
                 } else {
-                    $filtros['where'] .= " AND IMAL.imal_clave_unidad='".$this->configuracion_grupos->obtener_clave_unidad_actual()."'";
+                    $filtros['where'] .= " AND IMAL.imal_clave_unidad IN (".$this->configuracion_grupos->obtener_clave_unidad_atiende_actual().")";
                 }
             break;
         }

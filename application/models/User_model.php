@@ -24,7 +24,7 @@ class User_model extends CI_Model
         $this->db->reset_query();
         $this->db->start_cache();
 
-        $this->db->select(array('matricula', 'password', 'token', ''));
+        $this->db->select(array('matricula', 'password', 'token', '', 'activo'));
         $this->db->from('sistema.usuarios u');
         $this->db->where('u.matricula', $usr);
 
@@ -38,6 +38,10 @@ class User_model extends CI_Model
             $this->load->library('seguridad');
             $cadena = $result[0]['token'] . $passwd . $result[0]['token'];
             $clave = $this->seguridad->encrypt_sha512($cadena);
+            //pr($result); exit();
+            if (false == $result[0]['activo']) {
+                return 4; //Existe
+            }
             if ($clave == $result[0]['password'])
             {
                 return 1; //Existe
@@ -140,7 +144,7 @@ class User_model extends CI_Model
             , 'u.id_unidad_instituto', 'ui.nombre name_unidad_ist', 'ui.clave_unidad'
             , 'r.id_region', 'r.nombre name_region'
             , 'u.email', 'ui.umae', 'ui.id_tipo_unidad'
-            , 'ui.nivel_atencion', 'd.id_delegacion', 'd.grupo_delegacion', 'd.nombre_grupo_delegacion', 'ui.unidad_principal'
+            , 'ui.nivel_atencion', 'd.id_delegacion', 'd.grupo_delegacion', 'd.nombre_grupo_delegacion', 'ui.unidad_principal', 'u.imal_atiende'
         );
 
         $this->db->select($select);
@@ -176,4 +180,31 @@ class User_model extends CI_Model
         return $grupos;
     }
 
+    public function get_delegacion($param = null)
+    {
+        $this->db->flush_cache();
+        $this->db->reset_query();
+        if(isset($param['select']) && !empty($param['select'])){
+            $this->db->select($param['select']);
+        }
+        if(isset($param['where']) && !empty($param['where'])){
+            $this->db->where($param['where']);
+        }
+        $grupos = $this->db->get('catalogos.delegaciones del')->result_array();
+        return $grupos;
+    }
+
+    public function get_unidad($param = null)
+    {
+        $this->db->flush_cache();
+        $this->db->reset_query();
+        if(isset($param['select']) && !empty($param['select'])){
+            $this->db->select($param['select']);
+        }
+        if(isset($param['where']) && !empty($param['where'])){
+            $this->db->where($param['where']);
+        }
+        $grupos = $this->db->get('catalogos.unidades_instituto uni')->result_array();
+        return $grupos;
+    }
 }

@@ -62,7 +62,8 @@ $lang['interface'] = array(
         'nivel_central' => 'Nivel central',
         'direccion_normativa' => 'Dirección normativa',
         'filtros' => 'Filtros',
-        'error_seleccion_tipo_busqueda' => 'Debe seleccionar el criterio de búsqueda'
+        'error_seleccion_tipo_busqueda' => 'Debe seleccionar el criterio de búsqueda',
+        'acargo' => 'A cargo de'
     ),
     'datos_usuario' => array(
         'nombre' => 'Nombre',
