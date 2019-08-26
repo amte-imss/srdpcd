@@ -31,6 +31,53 @@ class Usuario extends MY_Controller
         redirect(site_url());
     }
 
+    public function crud_usuario(){
+        $this->load->library('grocery_CRUD');
+        try
+        {
+            $this->db->schema = 'sistema';
+            //pr($this->db->list_tables()); //Muestra el listado de tablas pertenecientes al esquema seleccionado
+
+            $crud = $this->new_crud();
+            $crud->set_table('usuarios');
+
+            $crud->set_subject('Usuarios');
+            /*$crud->display_as('clave_delegacional', 'Clave');
+            $crud->display_as('nombre', 'Nombre de la delegación');
+            $crud->display_as('id_region', 'Región');
+            $crud->display_as('configuraciones', 'Configuraciones');
+            $crud->display_as('latitud', 'Latitud');
+            $crud->display_as('longitud', 'Longitud');
+            $crud->display_as('fecha', 'Fecha');
+            $crud->display_as('activo', 'Activo');
+            */  
+
+            $crud->set_primary_key('id_usuario', 'usuarios'); //Definir llaves primarias, asegurar correcta relación
+
+            //$crud->set_relation('id_unidad_instituto', 'unidades_instituto', 'nombre', null, 'nombre'); //Establecer relaciones
+            $crud->columns('id_usuario', 'matricula', 'nombre','email',  'curp', 'clave_delegacional', 'clave_categoria', 'id_unidad_instituto', 'activo', 'id_departamento_instituto', 'imal_atiende');
+            $crud->add_fields('id_usuario', 'nombre', 'password', 'token', 'email', 'matricula', 'curp', 'clave_delegacional', 'clave_categoria', 'id_unidad_instituto', 'activo', 'recovery_code', 'id_departamento_instituto', 'imal_atiende');
+            $crud->edit_fields('nombre', 'password', 'token', 'email', 'matricula', 'curp', 'clave_delegacional', 'clave_categoria', 'id_unidad_instituto', 'activo', 'recovery_code', 'id_departamento_instituto', 'imal_atiende');
+
+            $crud->change_field_type('activo', 'true_false', array(0 => 'Inactivo', 1 => 'Activo'));
+            /*
+            $crud->set_rules('nombre', 'Nombre de categoría', 'trim|required');
+            $crud->set_rules('fecha', 'Fecha', 'trim|required');
+            $crud->set_rules('activo', 'Activo', 'required');
+            */
+            $crud->unset_delete();
+            $output = $crud->render();
+
+            $main_content = $this->load->view('catalogo/gc_output', $output, true);
+            $this->template->setSubTitle('Usuarios');
+            $this->template->setMainContent($main_content);
+            $this->template->getTemplate();
+        } catch (Exception $e)
+        {
+            show_error($e->getMessage() . ' --- ' . $e->getTraceAsString());
+        }
+    } 
+
     public function agregar_usuario()
     {
         if ($this->input->post())
