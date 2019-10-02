@@ -186,10 +186,20 @@ class Welcome extends MY_Controller
         $filtros = array('select'=>'imal_clave_implementacion, imal_curso, imal_fecha_inicio_curso, imal_fecha_fin_curso, imal_matricula, imal_apellido_paterno,imal_apellido_materno,imal_nombre, imal_categoria,imal_unidad,imal_delegacion,imal_folio_certificado',
             'where'=>"id_carga=".$this->db->escape(decrypt_base64($id))." AND imal_externo=false AND imal_guarderias=false AND imal_imss_oportunidades IS NULL AND imal_clave_delegacion <> '09'",
             'order'=>'imal_clave_implementacion, imal_fecha_inicio_curso, imal_fecha_fin_curso');
+        $columns = array('Clave del curso','Nombre del curso','Fecha inicio del curso','Fecha fin de curso','Matrícula','Apellido paterno','Apellido materno','Nombre(s)','Categoría','Unidad','Delegación','Aprobado');
         switch ($grupo_actual) {
             case En_grupos::NIVEL_CENTRAL: case En_grupos::ADMIN: case En_grupos::SUPERADMIN:
-                if($grupo_actual== En_grupos::SUPERADMIN and $tipo=='all'){
+                if($grupo_actual== En_grupos::SUPERADMIN){
                     $filtros['select'] = '*';
+                    $columns = array('id_implementacion_alumno','id_usuario','imal_anio','imal_matricula','imal_apellido_paterno','imal_apellido_materno','imal_nombre','imal_curp','imal_rfc','imal_sexo','imal_clave_categoria','imal_categoria','imal_clave_adscripcion','imal_adscripcion',
+                    'imal_clave_presupuestal','imal_clave_unidad','imal_unidad','imal_clave_delegacion','imal_delegacion','imal_id_region','imal_region','imal_id_tipo_unidad','imal_clave_tipo_unidad','imal_tipo_unidad','imal_id_grupo_tipo_unidad','imal_clave_grupo_tipo_unidad',
+                    'imal_grupo_tipo_unidad','imal_nivel_atencion','imal_id_implementacion','imal_clave_implementacion','imal_clave_curso','imal_curso','imal_fecha_inicio_curso','imal_fecha_fin_curso','imal_tutorizado','imal_id_tipo_curso','imal_tipo_curso','imal_id_programa_proyecto',
+                    'imal_programa_proyecto','imal_horas_curso','imal_id_grupo','imal_grupo','imal_imss_oportunidades','imal_is_umae','imal_guarderias','imal_ciefd','imal_externo','imal_no_acceso','imal_calificacion_final','imal_folio_certificado','id_carga','imal_fecha_carga'
+                );
+                }
+                if($grupo_actual== En_grupos::ADMIN){
+                    $filtros['select'] .= ",imal_is_umae, imal_guarderias,imal_externo,imal_ciefd";
+                    $columns = array_merge($columns, array('UMAE','Guarderías','Externo','CIEFD'));
                 }
             break;
             default:
@@ -204,7 +214,7 @@ class Welcome extends MY_Controller
         }
 
         $datos = $this->rep_det->get_implementaciones_alumnos($filtros);
-        $columns = array('Clave del curso','Nombre del curso','Fecha inicio del curso','Fecha fin de curso','Matrícula','Apellido paterno','Apellido materno','Nombre(s)','Categoría','Unidad','Delegación','Aprobado');
+        
 
         $this->phpexcel_library->phpexcel_password($datos, array('title'=>'Reporte_detallado', 'columns'=>$columns, 'password'=>'LW$$_20T6-.', 'note'=>'No se reportan los alumnos pertenecientes a: IMSS Bienestar, nivel central, guarderías y externos al IMSS'));
         

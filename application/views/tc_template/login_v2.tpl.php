@@ -332,7 +332,7 @@
             </div>
         </footer>
 
-        <div class="cores-bottom text-center text-cores-bottom">Este sitio se visualiza correctamente apartir Mozila Firefox 50 y Google Chrome 55.</div>
+        <div class="cores-bottom text-center text-cores-bottom">Este sitio se visualiza correctamente a partir de Mozilla Firefox 50 y Google Chrome 55.</div>
         <script>
             /*document.getElementsByTagName("BODY")[0].onresize = function () {
                 cores_animation()

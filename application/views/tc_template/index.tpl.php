@@ -245,7 +245,7 @@ if (isset($perfil_usuario))
                             <a style="text-decoration: underline;" href="http://educacionensalud.imss.gob.mx" target="_blank">Coordinación de Educación en Salud</a>
                         </p>
 
-                        <p class="copyright pull-left">Este sitio se visualiza correctamente apartir Mozila Firefox 50 y Google Chrome 55.</p>
+                        <p class="copyright pull-left">Este sitio se visualiza correctamente a partir de Mozilla Firefox 50 y Google Chrome 55.</p>
                     </div>
                 </footer>
             </div>
