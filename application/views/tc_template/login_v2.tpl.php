@@ -254,6 +254,50 @@
                 </div>
             </div>
         </div>
+
+
+        <!-- Modal login -->
+        <div class="modal fade" id="myModal_aviso" tabindex="1" role="dialog" aria-labelledby="myModalLabel_aviso" data-backdrop="static">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="col-md-12">
+                            <img class="cores-logo" src="<?php echo base_url(); ?>assets/tablero_tpl/img/ces.png">
+                            <!--button type="button" class="close" data-dismiss="modal" aria-label="Close">Cerrar <span aria-hidden="true">&times;</span></button-->
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-12 text-justify">
+                                <h1 class="text-center">Comunicado</h1><br>
+                                <p><b>Coordinadores de Planeación y Enlace Institucional<br>
+                                Coordinadores Auxiliares Médicos de Educación<br>
+                                Directores de Educación e Investigación en Salud de UMAE<br>
+                                Jefes de División de Educación en Salud</b></p><br>
+                                <p><b>Presentes</b></p>
+                                <p>Con la finalidad de optimizar y fortalecer el proceso de seguimiento y análisis de la formación a distancia del personal de salud adscrito a sus OOOAD o UMAE, la Coordinación de Educación en Salud a través de la División de Innovación Educativa hace de su conocimiento que a partir de esta fecha se encuentra a su disposición el <b>Módulo de Estadísticas en el Sistema de Educación a Distancia (SIED)</b>, en el cual podrán tener acceso a la información a detalle y en tiempo real del personal capacitado a través de la Plataforma de Educación a Distancia tanto en temas COVID así como de todos los cursos registrados en dicho portal incluyendo información histórica de ejercicios anteriores.</p>
+                                <p>Para llevar a cabo este proceso, deberá ingresar en la siguiente dirección:</p>
+                                <p class="text-center bg-info"><a href="http://innovaedu.imss.gob.mx/sied/app/loginext/"><b>http://innovaedu.imss.gob.mx/sied/app/loginext/</b></a></p>
+                                <p>Para acceder deberá ingresar su matrícula, la OOAD a la que pertenece y su tipo de perfil, tal como se muestra en la siguiente imagen:</p>
+                                <img class="img-responsive" src="<?php echo base_url(); ?>assets/login/sied.png"><br>
+                                <p>Es importante recalcar que <b>el acceso al sistema está habilitado únicamente para autoridades de educación en salud delegacionales (CPEI/CAME) y de UMAE (JDES/DEIS)</b> por lo que en caso de no poder ingresar deberá enviar correo electrónico a esta División para validar sus credenciales y poder habilitar el acceso.</p>
+                                <p>De esta forma la Coordinación de Educación en Salud refrenda su compromiso de mantenerse a la vanguardia a través de la mejora continua de sus procesos y servicios orientados a la formación del personal de la salud institucional.</p><br>
+                                <p>Si tiene dudas sobre este procedimiento contacte a la mesa de ayuda de esta Coordinación:</p>
+                                <b><p>División de Innovación Educativa<br>
+                                    01 55 5627 6900 Ext. 21254<br>
+                                    <a href="http://innovacioneducativa.imss.gob.mx">http://innovacioneducativa.imss.gob.mx</a>
+                                    <hr>
+                                    Coordinación de Educación en Salud<br>
+                                    Av. Cuauhtémoc 330, Doctores, 06720, Ciudad de México, CDMX
+                                </p></b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
         <div class="panel-body">
             <!--div class="row div-logos">
                 <div class="cores-logos">
@@ -344,6 +388,7 @@
                 //document.getElementById("demo").innerHTML = txt;
                 cores_render_points2();
             }*/
+            $('#myModal_aviso').modal({show: true});
 <?php
 if (isset($errores))
 {
